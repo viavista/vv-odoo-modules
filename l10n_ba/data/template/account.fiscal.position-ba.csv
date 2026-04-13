@@ -1,0 +1,5 @@
+id,name,sequence,auto_apply,vat_required,country_id,country_group_id,name@bs
+fiscal_position_ba_domestic,Domestic,10,1,1,base.ba,,Domaći
+fiscal_position_ba_export,Export,20,,,,,Izvoz
+fiscal_position_ba_exempt,Tax exempt,30,,,,,Oslobođeni obveznik
+fiscal_position_ba_reverse_charge,Reverse charge,40,,,,,Obrnuto oporezivanje

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2026 Viavista d.o.o.
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <menuitem
+        id="account_reports_ba_statements_menu"
+        name="Bosna i Hercegovina"
+        parent="account.menu_finance_reports"
+        sequence="0"
+        groups="account.group_account_readonly"
+    />
+</odoo>

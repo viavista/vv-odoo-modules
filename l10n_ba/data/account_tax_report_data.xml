@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2026 Viavista d.o.o.
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+
+     BiH VAT return structure (PDV prijava / Obrazac PDV-a)
+     Based on: Zakon o porezu na dodanu vrijednost BiH
+-->
+<odoo auto_sequence="1">
+    <record id="tax_report" model="account.report">
+        <field name="name">Tax Report</field>
+        <field name="name@bs">PDV prijava</field>
+        <field name="root_report_id" ref="account.generic_tax_report"/>
+        <field name="country_id" ref="base.ba"/>
+        <field name="availability_condition">country</field>
+        <field name="column_ids">
+            <record id="tax_report_balance" model="account.report.column">
+                <field name="name">Balance</field>
+                <field name="name@bs">Iznos</field>
+                <field name="expression_label">balance</field>
+            </record>
+        </field>
+        <field name="line_ids">
+            <!-- I. IZLAZNI PROMET (Output transactions) -->
+            <record id="tax_report_line_output_total" model="account.report.line">
+                <field name="name">I. Output transactions - total</field>
+                <field name="name@bs">I. Izlazne transakcije - ukupno</field>
+                <field name="code">ba_out_total</field>
+                <field name="hierarchy_level">0</field>
+                <field name="expression_ids">
+                    <record id="tax_report_line_output_total_expr" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">aggregation</field>
+                        <field name="formula">ba_out_domestic.balance + ba_out_export.balance + ba_out_exempt.balance + ba_out_rc.balance</field>
+                    </record>
+                </field>
+                <field name="children_ids">
+                    <!-- 1. Domestic taxable supplies -->
+                    <record id="tax_report_line_output_domestic" model="account.report.line">
+                        <field name="name">1. Domestic taxable supplies (17%)</field>
+                        <field name="name@bs">1. Oporezive isporuke u zemlji (17%)</field>
+                        <field name="code">ba_out_domestic</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_output_domestic_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_out_domestic</field>
+                            </record>
+                        </field>
+                    </record>
+                    <!-- 2. Export -->
+                    <record id="tax_report_line_output_export" model="account.report.line">
+                        <field name="name">2. Export of goods and services (0%)</field>
+                        <field name="name@bs">2. Izvoz dobara i usluga (0%)</field>
+                        <field name="code">ba_out_export</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_output_export_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_out_export</field>
+                            </record>
+                        </field>
+                    </record>
+                    <!-- 3. Exempt supplies -->
+                    <record id="tax_report_line_output_exempt" model="account.report.line">
+                        <field name="name">3. Exempt supplies</field>
+                        <field name="name@bs">3. Oslobođene isporuke</field>
+                        <field name="code">ba_out_exempt</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_output_exempt_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_out_exempt</field>
+                            </record>
+                        </field>
+                    </record>
+                    <!-- 4. Reverse charge -->
+                    <record id="tax_report_line_output_rc" model="account.report.line">
+                        <field name="name">4. Reverse charge</field>
+                        <field name="name@bs">4. Obrnuto oporezivanje</field>
+                        <field name="code">ba_out_rc</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_output_rc_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_out_rc</field>
+                            </record>
+                        </field>
+                    </record>
+                </field>
+            </record>
+
+            <!-- II. OUTPUT VAT (Izlazni PDV) -->
+            <record id="tax_report_line_output_vat" model="account.report.line">
+                <field name="name">II. Output VAT (17%)</field>
+                <field name="name@bs">II. Izlazni PDV (17%)</field>
+                <field name="code">ba_output_vat</field>
+                <field name="hierarchy_level">0</field>
+                <field name="expression_ids">
+                    <record id="tax_report_line_output_vat_expr" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">ba_output_vat</field>
+                    </record>
+                </field>
+            </record>
+
+            <!-- III. INPUT VAT (Ulazni PDV) -->
+            <record id="tax_report_line_input_total" model="account.report.line">
+                <field name="name">III. Input VAT - total</field>
+                <field name="name@bs">III. Ulazni PDV - ukupno</field>
+                <field name="code">ba_in_total</field>
+                <field name="hierarchy_level">0</field>
+                <field name="expression_ids">
+                    <record id="tax_report_line_input_total_expr" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">aggregation</field>
+                        <field name="formula">ba_in_domestic.balance + ba_in_import.balance + ba_in_rc.balance</field>
+                    </record>
+                </field>
+                <field name="children_ids">
+                    <!-- 1. Input VAT on domestic purchases -->
+                    <record id="tax_report_line_input_domestic" model="account.report.line">
+                        <field name="name">1. Input VAT on domestic purchases</field>
+                        <field name="name@bs">1. Ulazni PDV po domaćim nabavkama</field>
+                        <field name="code">ba_in_domestic</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_input_domestic_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_in_domestic</field>
+                            </record>
+                        </field>
+                    </record>
+                    <!-- 2. Input VAT paid on imports -->
+                    <record id="tax_report_line_input_import" model="account.report.line">
+                        <field name="name">2. Input VAT paid on imports</field>
+                        <field name="name@bs">2. Ulazni PDV plaćen pri uvozu</field>
+                        <field name="code">ba_in_import</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_input_import_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_in_import</field>
+                            </record>
+                        </field>
+                    </record>
+                    <!-- 3. Input VAT on reverse charge -->
+                    <record id="tax_report_line_input_rc" model="account.report.line">
+                        <field name="name">3. Input VAT on reverse charge</field>
+                        <field name="name@bs">3. Ulazni PDV po obrnutom oporezivanju</field>
+                        <field name="code">ba_in_rc</field>
+                        <field name="expression_ids">
+                            <record id="tax_report_line_input_rc_expr" model="account.report.expression">
+                                <field name="label">balance</field>
+                                <field name="engine">tax_tags</field>
+                                <field name="formula">ba_in_rc</field>
+                            </record>
+                        </field>
+                    </record>
+                </field>
+            </record>
+
+            <!-- IV. VAT LIABILITY (PDV obaveza) -->
+            <record id="tax_report_line_vat_due" model="account.report.line">
+                <field name="name">IV. VAT due (II - III)</field>
+                <field name="name@bs">IV. PDV za uplatu (II - III)</field>
+                <field name="code">ba_vat_due</field>
+                <field name="hierarchy_level">0</field>
+                <field name="expression_ids">
+                    <record id="tax_report_line_vat_due_expr" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">aggregation</field>
+                        <field name="formula">ba_output_vat.balance - ba_in_total.balance</field>
+                    </record>
+                </field>
+            </record>
+        </field>
+    </record>
+</odoo>

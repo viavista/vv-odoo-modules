@@ -1,0 +1,87 @@
+id,code_prefix_start,code_prefix_end,name,name@bs
+ba_group_0,0,,Non-current assets,Dugoročna imovina
+ba_group_01,01,,Intangible assets,Nematerijalna imovina
+ba_group_02,02,,"Property, plant and equipment","Nekretnine, postrojenja i oprema"
+ba_group_020,020,,Land,Zemljište
+ba_group_021,021,,Buildings,Građevinski objekti
+ba_group_03,03,,Investment property,Ulaganja u investicijske nekretnine
+ba_group_04,04,,Biological assets,Biološka imovina
+ba_group_05,05,,Right-of-use assets,Imovina s pravom korištenja
+ba_group_06,06,,Long-term financial assets,Dugoročni finansijski plasmani
+ba_group_065,065,,Financial assets at fair value through OCI,Finansijska imovina po fer vrijednosti kroz ostali ukupni rezultat
+ba_group_066,066,,Financial assets at amortised cost,Finansijska imovina po amortizovanom trošku
+ba_group_07,07,,Other long-term receivables and assets,Ostala dugoročna potraživanja i imovina
+ba_group_09,09,,Deferred tax assets and long-term prepayments,Odgođena porezna imovina i dugoročna razgraničenja
+ba_group_1,1,,Inventories and non-current assets held for sale,Zalihe i dugoročna imovina namijenjena prodaji
+ba_group_10,10,,"Raw materials, spare parts and small inventory","Sirovine, materijal, rezervni dijelovi i sitan inventar"
+ba_group_11,11,,"Work in progress, semi-finished products and unfinished services","Proizvodnja u toku, poluproizvodi i nedovršene usluge"
+ba_group_12,12,,Finished products,Gotovi proizvodi
+ba_group_13,13,,Goods,Roba
+ba_group_14,14,,Non-current assets held for sale and discontinued operations,Dugoročna imovina namijenjena prodaji i imovina poslovanja koje se obustavlja
+ba_group_15,15,,Advances given,Dati avansi
+ba_group_2,2,,"Cash, short-term receivables and short-term investments","Gotovina, kratkoročna potraživanja i kratkoročni plasmani"
+ba_group_20,20,,Cash and cash equivalents,Gotovina i gotovinski ekvivalenti
+ba_group_21,21,,Trade receivables,Potraživanja od prodaje
+ba_group_22,22,,Derivative financial assets,Derivatna finansijska imovina
+ba_group_23,23,,Other short-term receivables,Ostala kratkoročna potraživanja
+ba_group_24,24,,Short-term financial assets,Kratkoročni finansijski plasmani
+ba_group_240,240,,Financial assets at amortised cost,Finansijska imovina po amortizovanom trošku
+ba_group_27,27,,VAT receivables - deductible input tax,Potraživanja za PDV - odbitni ulazni porez
+ba_group_28,28,,Short-term prepayments and accruals,Kratkoročna razgraničenja
+ba_group_3,3,,Equity,Kapital
+ba_group_30,30,,Share capital,Vlasnički kapital
+ba_group_32,32,,Reserves,Rezerve
+ba_group_320,320,,Share premium,Dionička premija
+ba_group_33,33,,Revaluation reserves,Revalorizacijske rezerve
+ba_group_34,34,,Profit,Dobit
+ba_group_35,35,,Loss,Gubitak
+ba_group_36,36,,Treasury shares,Otkupljene vlastite dionice
+ba_group_4,4,,"Liabilities, provisions and accruals","Obaveze, rezervisanja i razgraničenja"
+ba_group_40,40,,"Long-term provisions, accruals and deferred tax liabilities",Dugoročna rezervisanja i razgraničenja i odgođene porezne obaveze
+ba_group_41,41,,Long-term liabilities,Dugoročne obaveze
+ba_group_42,42,,Short-term financial liabilities,Kratkoročne finansijske obaveze
+ba_group_43,43,,Trade payables,Obaveze iz poslovanja
+ba_group_44,44,,Derivative financial liabilities,Derivatne finansijske obaveze
+ba_group_45,45,,Payroll and employee benefit liabilities,"Obaveze po osnovu plaća, naknada i ostalih primanja zaposlenih"
+ba_group_46,46,,Other liabilities,Ostale obaveze
+ba_group_47,47,,VAT liabilities,Obaveze za PDV
+ba_group_48,48,,"Other tax, contribution and levy liabilities","Obaveze za ostale poreze, doprinose i druge dažbine"
+ba_group_49,49,,"Short-term provisions, accruals and deferred revenue",Kratkoročna rezervisanja i razgraničenja i odgođeni prihodi
+ba_group_5,5,,Expenses,Rashodi
+ba_group_50,50,,Cost of goods sold,Nabavna vrijednost prodate robe
+ba_group_51,51,,Material costs,Materijalni troškovi
+ba_group_52,52,,Employee costs,Troškovi plaća i ostalih primanja zaposlenih i drugih fizičkih lica
+ba_group_53,53,,Production service costs,Troškovi proizvodnih usluga
+ba_group_54,54,,Depreciation and provisioning costs,Amortizacija i troškovi rezervisanja
+ba_group_55,55,,Non-material costs,Nematerijalni troškovi
+ba_group_56,56,,Financial expenses,Finansijski rashodi
+ba_group_57,57,,Other expenses and losses,Ostali rashodi i gubici
+ba_group_58,58,,Impairment losses,Rashodi/gubici po osnovu umanjenja vrijednosti imovine
+ba_group_59,59,,"Accounting policy changes, error corrections, inventory changes and expense transfer","Efekti promjena računovodstvenih politika i ispravki grešaka iz ranijih perioda, promjena vrijednosti zaliha i prenos rashoda"
+ba_group_6,6,,Revenue,Prihodi
+ba_group_60,60,,Revenue from sale of goods,Prihodi od prodaje robe
+ba_group_61,61,,Revenue from sale of finished products,Prihodi od prodaje gotovih proizvoda
+ba_group_62,62,,Revenue from services rendered,Prihodi od pruženih usluga
+ba_group_64,64,,Fair value changes of non-current non-financial assets,Promjena fer vrijednosti dugoročne nefinansijske imovine
+ba_group_65,65,,Other operating revenue,Ostali poslovni prihodi
+ba_group_66,66,,Financial revenue,Finansijski prihodi
+ba_group_67,67,,Other revenue and gains,Ostali prihodi i dobici
+ba_group_68,68,,Reversal of impairment losses,Prihodi/dobici po osnovu usklađivanja vrijednosti imovine
+ba_group_69,69,,"Accounting policy changes, error corrections and revenue transfer","Efekti promjena računovodstvenih politika i ispravki grešaka iz ranijih perioda, i prenos prihoda"
+ba_group_7,7,,Opening and closing of balance sheet and income statement accounts,Otvaranje i zaključak konta stanja i uspjeha
+ba_group_71,71,,Closing of profit or loss accounts,Zaključak konta poslovnog rezultata
+ba_group_72,72,,Profit or loss calculation,Obračun dobiti ili gubitka
+ba_group_8,8,,Off-balance sheet records,Vanbilansna evidencija
+ba_group_88,88,,Off-balance sheet assets,Vanbilansna aktiva
+ba_group_89,89,,Off-balance sheet liabilities,Vanbilansna pasiva
+ba_group_9,9,,Cost accounting and production,Obračun troškova i proizvodnje
+ba_group_90,90,,Accounts linking to financial accounting,Konta odnosa sa finansijskim računovodstvom
+ba_group_91,91,,Materials and goods,Materijal i roba
+ba_group_92,92,,"Procurement, technical management and auxiliary activity cost centres","Konta mjesta troškova nabavke, tehničke uprave i pomoćnih djelatnosti"
+ba_group_93,93,,Main production cost centres,Konta glavnih proizvodnih mjesta troškova
+ba_group_94,94,,"Administration, sales and similar activity cost centres","Konta mjesta troškova uprave, prodaje i sličnih aktivnosti"
+ba_group_95,95,,Cost carriers,Nosioci troškova
+ba_group_96,96,,Finished products,Gotovi proizvodi
+ba_group_97,97,,Unassigned group,Slobodna grupa
+ba_group_98,98,,Expenses and revenue,Rashodi i prihodi
+ba_group_99,99,,"Profit, loss and closing accounts","Konta dobitka, gubitka i zaključka"

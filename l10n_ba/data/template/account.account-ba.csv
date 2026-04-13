@@ -1,0 +1,394 @@
+id,code,name,account_type,reconcile,non_trade,name@bs
+ba_010000,010000,Capitalised development costs,asset_fixed,False,False,Kapitalizirana ulaganja u razvoj
+ba_011000,011000,"Concessions, patents, licences, trademarks and other rights",asset_fixed,False,False,"Koncesije, patenti, licence, zaštitni znakovi i druga prava"
+ba_012000,012000,Goodwill,asset_fixed,False,False,Goodwill
+ba_014000,014000,Other intangible assets,asset_fixed,False,False,Ostala nematerijalna imovina
+ba_015000,015000,Intangible assets in preparation,asset_fixed,False,False,Nematerijalna imovina u pripremi
+ba_017000,017000,Advances for intangible assets,asset_fixed,False,False,Avansi za nematerijalnu imovinu
+ba_018000,018000,Impairment of intangible assets,asset_fixed,False,False,Vrijednosna usklađivanja nematerijalne imovine po osnovu umanjenja vrijednosti
+ba_019000,019000,Accumulated amortisation of intangible assets,asset_fixed,False,False,Ispravka vrijednosti nematerijalne imovine
+ba_020000,020000,Own land,asset_fixed,False,False,Vlastito zemljište
+ba_020100,020100,Investments in land,asset_fixed,False,False,Ulaganja u zemljište
+ba_021000,021000,Own buildings,asset_fixed,False,False,Vlastiti građevinski objekti
+ba_021100,021100,Investments in leased buildings,asset_fixed,False,False,Ulaganja u tuđe građevinske objekte
+ba_021200,021200,Residential buildings and apartments,asset_fixed,False,False,Stambene zgrade i stanovi
+ba_022000,022000,Plant and equipment (machinery),asset_fixed,False,False,Postrojenja i oprema (mašine)
+ba_023000,023000,"Tools, factory and office furniture",asset_fixed,False,False,"Alati, pogonski i kancelarijski namještaj"
+ba_024000,024000,Transport vehicles,asset_fixed,False,False,Transportna sredstva
+ba_025000,025000,"Property, plant and equipment in preparation",asset_fixed,False,False,"Nekretnine, postrojenja i oprema u pripremi"
+ba_026000,026000,Other tangible assets,asset_fixed,False,False,Ostala materijalna imovina
+ba_027000,027000,"Advances for property, plant and equipment",asset_fixed,False,False,"Avansi za nekretnine, postrojenja i opremu"
+ba_028000,028000,"Impairment of property, plant and equipment",asset_fixed,False,False,"Vrijednosna usklađivanja nekretnina, postrojenja i opreme po osnovu umanjenja vrijednosti"
+ba_029000,029000,"Accumulated depreciation of property, plant and equipment",asset_fixed,False,False,"Ispravka vrijednosti nekretnina, postrojenja i opreme"
+ba_030000,030000,Investment in own land,asset_fixed,False,False,Ulaganja u vlastito zemljište
+ba_031000,031000,Investment in leased land,asset_fixed,False,False,Ulaganja u unajmljeno zemljište
+ba_032000,032000,Investment in own buildings,asset_fixed,False,False,Ulaganja u vlastite građevinske objekte
+ba_033000,033000,Investment in leased buildings,asset_fixed,False,False,Ulaganja u unajmljene građevinske objekte
+ba_035000,035000,Investment property in preparation,asset_fixed,False,False,Investicijske nekretnine u pripremi
+ba_036000,036000,Fair value adjustments of investment property,asset_fixed,False,False,Vrijednosna usklađivanja ulaganja u investicijske nekretnine po osnovu promjene fer vrijednosti
+ba_037000,037000,Advances for investment property,asset_fixed,False,False,Avansi za investicijske nekretnine
+ba_038000,038000,Impairment of investment property,asset_fixed,False,False,Vrijednosna usklađivanja ulaganja u investicijske nekretnine po osnovu umanjenja vrijednosti
+ba_039000,039000,Accumulated depreciation of investment property,asset_fixed,False,False,Ispravka vrijednosti ulaganja u investicijske nekretnine
+ba_045000,045000,Biological assets in preparation,asset_fixed,False,False,Biološka imovina u pripremi
+ba_046000,046000,Fair value adjustments of biological assets,asset_fixed,False,False,Vrijednosna usklađivanja biološke imovine po osnovu promjene fer vrijednosti
+ba_047000,047000,Advances for biological assets,asset_fixed,False,False,Avansi za biološku imovinu
+ba_048000,048000,Impairment of biological assets,asset_fixed,False,False,Vrijednosna usklađivanja biološke imovine po osnovu umanjenja vrijednosti
+ba_049000,049000,Accumulated depreciation of biological assets,asset_fixed,False,False,Ispravka vrijednosti biološke imovine
+ba_059000,059000,Accumulated depreciation of right-of-use assets,asset_fixed,False,False,Ispravka vrijednosti imovine s pravom korištenja
+ba_060100,060100,Investments in subsidiaries,asset_fixed,False,False,Ulaganja u zavisna društva
+ba_060200,060200,Investments in associates,asset_fixed,False,False,Ulaganja u pridružena društva
+ba_060300,060300,Investments in joint ventures,asset_fixed,False,False,Ulaganja u zajedničke poduhvate
+ba_060900,060900,"Impairment of investments in subsidiaries, associates and joint ventures",asset_fixed,False,False,"Ispravka vrijednosti ulaganja u zavisna i pridružena društva, i zajedničke poduhvate"
+ba_065100,065100,Equity instruments (shares and ownership interests),asset_fixed,False,False,Instrumenti kapitala (dionice i vlasnički udjeli)
+ba_065200,065200,"Debt instruments (bonds, loans, bank deposits)",asset_fixed,False,False,"Dužnički instrumenti (obveznice, dati krediti, depoziti kod banaka)"
+ba_065300,065300,Other financial assets at fair value through OCI,asset_fixed,False,False,Ostala finansijska imovina po fer vrijednosti kroz ostali ukupni rezultat
+ba_065400,065400,Interest receivable on financial assets at FVOCI,asset_fixed,False,False,Potraživanja za kamatu od finansijske imovine po fer vrijednosti kroz ostali ukupni rezultat
+ba_065800,065800,Fair value adjustments of long-term financial assets at FVOCI,asset_fixed,False,False,Vrijednosna usklađivanja dugoročne finansijske imovine po fer vrijednosti kroz ostali ukupni rezultat po osnovu promjene fer vrijednosti
+ba_065900,065900,Impairment of long-term financial assets at FVOCI,asset_fixed,False,False,Ispravka vrijednosti dugoročne finansijske imovine po fer vrijednosti kroz ostali ukupni rezultat
+ba_066900,066900,Impairment of long-term financial assets at amortised cost,asset_fixed,False,False,Ispravka vrijednosti dugoročne finansijske imovine po amortizovanom trošku
+ba_067000,067000,Finance lease receivables,asset_fixed,False,False,Potraživanja po finansijskim najmovima
+ba_070000,070000,Other long-term contract assets - incremental costs of obtaining contracts,asset_fixed,False,False,Ostala dugoročna imovina po osnovu ugovora sa kupcima - dodatni troškovi sticanja ugovora
+ba_071000,071000,Other long-term contract assets - costs of fulfilling contracts,asset_fixed,False,False,Ostala dugoročna imovina po osnovu ugovora sa kupcima - troškovi izvršenja ugovora
+ba_079100,079100,Impairment of long-term contract assets (IFRS 15),asset_fixed,False,False,Ispravka vrijednosti dugoročne imovine po osnovu ugovora sa kupcima (MSFI 15)
+ba_090000,090000,Deferred tax assets,asset_non_current,False,False,Odgođena porezna imovina
+ba_091000,091000,Prepaid expenses (long-term),asset_prepayments,False,False,Unaprijed plaćeni troškovi
+ba_098000,098000,Other long-term prepayments,asset_non_current,False,False,Ostala dugoročna razgraničenja
+ba_100000,100000,Purchase cost calculation,asset_current,False,False,Obračun troška nabavke
+ba_101000,101000,Raw materials,asset_current,False,False,Sirovine i materijal
+ba_102000,102000,Spare parts,asset_current,False,False,Rezervni dijelovi
+ba_103000,103000,Tyres and packaging,asset_current,False,False,Auto gume i ambalaža
+ba_104000,104000,Tools and small inventory,asset_current,False,False,Alat i sitan inventar
+ba_108000,108000,Price variances,asset_current,False,False,Odstupanje od cijena
+ba_109000,109000,"Impairment of raw materials, spare parts and inventory",asset_current,False,False,"Ispravka vrijednosti sirovina, materijala, rezervnih dijelova, alata i inventara"
+ba_110000,110000,Work in progress - unfinished products,asset_current,False,False,Proizvodnja u toku - nedovršeni proizvodi
+ba_111000,111000,Semi-finished products and own components,asset_current,False,False,Poluproizvodi i dijelovi vlastite proizvodnje
+ba_112000,112000,Production at subcontractors,asset_current,False,False,Proizvodnja kod kooperanata
+ba_113000,113000,Suspended production,asset_current,False,False,Obustavljena proizvodnja
+ba_114000,114000,Semi-finished products in processing,asset_current,False,False,Poluproizvodi u doradi i obradi
+ba_115000,115000,Unfinished services,asset_current,False,False,Nedovršene usluge
+ba_118000,118000,Price variances,asset_current,False,False,Odstupanje od cijena
+ba_119000,119000,Impairment of work in progress,asset_current,False,False,Ispravka vrijednosti nedovršene proizvodnje
+ba_120000,120000,Products in warehouse,asset_current,False,False,Proizvodi u skladištu
+ba_121000,121000,Products in retail stores,asset_current,False,False,Proizvodi u maloprodajnim objektima
+ba_122000,122000,Calculated price margin,asset_current,False,False,Ukalkulirana razlika u cijeni
+ba_123000,123000,Calculated VAT,asset_current,False,False,Ukalkulirani PDV
+ba_124000,124000,Products on commission and consignment,asset_current,False,False,Proizvodi u komisionu i konsignaciji
+ba_125000,125000,Products out of use,asset_current,False,False,Proizvodi izvan upotrebe
+ba_126000,126000,Products in processing,asset_current,False,False,Proizvodi u obradi i doradi
+ba_128000,128000,Price variances,asset_current,False,False,Odstupanje od cijena
+ba_129000,129000,Impairment of finished products,asset_current,False,False,Ispravka vrijednosti gotovih proizvoda
+ba_130000,130000,Purchase cost calculation for goods,asset_current,False,False,Obračun troška nabavke robe
+ba_131000,131000,Real estate acquired for resale,asset_current,False,False,Nekretnine nabavljene radi dalje prodaje
+ba_132000,132000,Goods in wholesale,asset_current,False,False,Roba u prodaji na veliko
+ba_133000,133000,Goods in retail stores,asset_current,False,False,Roba u maloprodajnim objektima
+ba_134000,134000,"Goods in transit, commission and consignment",asset_current,False,False,"Roba u tranzitu, komisionu i konsignaciji"
+ba_135000,135000,Goods in transport,asset_current,False,False,Roba na putu
+ba_136000,136000,Goods in processing,asset_current,False,False,Roba u obradi i doradi
+ba_137000,137000,Calculated price margin,asset_current,False,False,Ukalkulirana razlika u cijeni
+ba_138000,138000,Calculated VAT,asset_current,False,False,Ukalkulirani PDV
+ba_139000,139000,Impairment of goods,asset_current,False,False,Ispravka vrijednosti robe
+ba_140000,140000,Intangible assets held for sale,asset_current,False,False,Nematerijalna imovina namijenjena prodaji
+ba_141000,141000,Land held for sale,asset_current,False,False,Zemljište namijenjeno prodaji
+ba_142000,142000,Buildings held for sale,asset_current,False,False,Građevinski objekti namijenjeni prodaji
+ba_143000,143000,Plant and equipment held for sale,asset_current,False,False,Postrojenja i oprema namijenjeni prodaji
+ba_144000,144000,Investment property held for sale,asset_current,False,False,Investicijske nekretnine namijenjene prodaji
+ba_145000,145000,Biological assets held for sale,asset_current,False,False,Biološka imovina namijenjena prodaji
+ba_146000,146000,Other non-current assets held for sale,asset_current,False,False,Ostala dugoročna imovina namijenjena prodaji
+ba_147000,147000,Assets of discontinued operations,asset_current,False,False,Imovina poslovanja koje se obustavlja
+ba_149000,149000,Impairment of non-current assets held for sale and discontinued operations,asset_current,False,False,Ispravka vrijednosti dugoročne imovine namijenjene prodaji i imovine poslovanja koje se obustavlja
+ba_150000,150000,Advances for inventories to related parties,asset_current,False,False,Dati avansi za zalihe povezanim stranama
+ba_151000,151000,Advances for inventories to unrelated parties,asset_current,False,False,Dati avansi za zalihe nepovezanim stranama
+ba_159000,159000,Impairment of advances given,asset_current,False,False,Ispravka vrijednosti datih avansa
+ba_200000,200000,Bank accounts - domestic currency,asset_cash,False,False,Transakcijski računi - domaća valuta
+ba_201000,201000,Bank accounts - foreign currency,asset_cash,False,False,Transakcijski računi - strana valuta
+ba_202000,202000,Restricted cash,asset_cash,False,False,Izdvojena novčana sredstva
+ba_203000,203000,Letters of credit - domestic currency,asset_cash,False,False,Akreditivi - domaća valuta
+ba_204000,204000,Letters of credit - foreign currency,asset_cash,False,False,Akreditivi - strana valuta
+ba_205000,205000,Cash on hand - domestic currency,asset_cash,False,False,Blagajne - domaća valuta
+ba_206000,206000,Cash on hand - foreign currency,asset_cash,False,False,Blagajne - strana valuta
+ba_207000,207000,Cash equivalents,asset_cash,False,False,Novčani ekvivalenti
+ba_208000,208000,Other cash,asset_cash,False,False,Ostala novčana sredstva
+ba_209000,209000,Impairment of cash and cash equivalents,asset_cash,False,False,Ispravka vrijednosti novca i novčanih ekvivalenata
+ba_210000,210000,Customers - related parties,asset_receivable,True,False,Kupci - povezane strane
+ba_211000,211000,Domestic customers,asset_receivable,True,False,Kupci u zemlji
+ba_212000,212000,Foreign customers,asset_receivable,True,False,Kupci u inostranstvu
+ba_219000,219000,Impairment of trade receivables,asset_receivable,True,False,Ispravka vrijednosti potraživanja od kupaca
+ba_230000,230000,Dividend receivables,asset_current,False,False,Potraživanja za dividende
+ba_231000,231000,Interest receivable on financial assets and default interest,asset_current,False,False,Potraživanja za kamatu od finansijske imovine i zateznu kamatu
+ba_232000,232000,Receivables from employees,asset_current,False,False,Potraživanja od zaposlenih
+ba_233000,233000,Receivables from government bodies and institutions,asset_current,False,False,Potraživanja od državnih organa i institucija
+ba_234000,234000,Income tax prepayments,asset_current,False,False,Akontacije poreza na dobit
+ba_235000,235000,Receivables for overpaid other taxes and contributions,asset_current,False,False,Potraživanja za više plaćene ostale poreza i doprinose
+ba_237000,237000,Factoring receivables,asset_current,False,False,Potraživanja po osnovu faktoring poslova
+ba_238000,238000,Other short-term receivables,asset_current,False,False,Ostala kratkoročna potraživanja
+ba_239000,239000,Impairment of other short-term receivables,asset_current,False,False,Ispravka vrijednosti ostalih kratkoročnih potraživanja
+ba_240900,240900,Impairment of short-term financial assets at amortised cost,asset_current,False,False,Ispravka vrijednosti kratkoročne finansijske imovine po amortizovanom trošku
+ba_245000,245000,Financial assets at fair value through profit or loss,asset_current,False,False,Finansijska imovina po fer vrijednosti kroz bilans uspjeha
+ba_247000,247000,Finance lease receivables (short-term),asset_current,False,False,Potraživanja po finansijskim najmovima
+ba_270000,270000,VAT in received invoices,asset_current,False,False,PDV u primljenim fakturama
+ba_271000,271000,VAT paid on imports,asset_current,False,False,PDV plaćen pri uvozu dobara
+ba_272000,272000,VAT in advances given,asset_current,False,False,PDV sadržan u datim avansima
+ba_273000,273000,VAT on services from foreign persons,asset_current,False,False,PDV obračunat na usluge stranih lica
+ba_274000,274000,Flat-rate VAT paid to farmers,asset_current,False,False,Paušalni iznosi PDV-a isplaćeni poljoprivrednicima
+ba_275000,275000,Input tax paid under special scheme,asset_current,False,False,Ulazni porez uplaćen po posebnoj šemi
+ba_276000,276000,Input tax - right to deduction not yet acquired,asset_current,False,False,Ulazni porez na koji još nije stečeno pravo odbitka
+ba_278000,278000,Other VAT receivables,asset_current,False,False,Ostala potraživanja po osnovu PDV-a
+ba_279000,279000,Receivable for VAT input tax excess over VAT liability,asset_current,False,False,Potraživanja za razliku ulaznog poreza i obaveza za PDV
+ba_280000,280000,Prepaid expenses (short-term),asset_prepayments,False,False,Unaprijed plaćeni troškovi
+ba_281000,281000,Accrued uninvoiced revenue,asset_prepayments,False,False,"Obračunati, nefakturirani prihodi"
+ba_289000,289000,Other short-term prepayments,asset_prepayments,False,False,Ostala kratkoročna razgraničenja
+ba_300000,300000,Share capital (joint-stock company),equity,False,False,Dionički kapital
+ba_302000,302000,Ownership interests (limited liability company),equity,False,False,Udjeli članova društva sa ograničenom odgovornošću
+ba_305000,305000,State capital,equity,False,False,Državni kapital
+ba_309000,309000,Other forms of equity capital,equity,False,False,Ostali oblici vlasničkog kapitala
+ba_320000,320000,Share premium (agio),equity,False,False,Ažio
+ba_320100,320100,Share discount (disagio),equity,False,False,Disažio
+ba_321000,321000,Statutory reserves,equity,False,False,Statutarne rezerve
+ba_322000,322000,Other reserves,equity,False,False,Ostale rezerve
+ba_330000,330000,"Revaluation reserves for property, plant, equipment and intangible assets",equity,False,False,"Revalorizacijske rezerve za nekretnine, postrojenja i opremu, i nematerijalnu imovinu"
+ba_331000,331000,Revaluation effects from hedging transactions,equity,False,False,Efekti revalorizacije proizašli iz transakcija zaštite
+ba_332000,332000,Revaluation reserves for financial assets at FVOCI,equity,False,False,Revalorizacijske rezerve za finansijsku imovinu po fer vrijednosti kroz ostali ukupni rezultat
+ba_339000,339000,Other revaluation reserves,equity,False,False,Ostale revalorizacijske rezerve
+ba_340000,340000,Retained earnings of prior periods,equity,False,False,Neraspoređena dobit ranijih perioda
+ba_341000,341000,Unappropriated profit of reporting period,equity_unaffected,False,False,Neraspoređena dobit izvještajnog perioda
+ba_350000,350000,Accumulated loss of prior periods,equity,False,False,Gubitak ranijih perioda
+ba_351000,351000,Loss of reporting period,equity_unaffected,False,False,Gubitak izvještajnog perioda
+ba_400000,400000,Warranty provisions,liability_non_current,False,False,Rezervisanja za troškove u garantnom roku
+ba_401000,401000,Provisions for restoration of natural resources,liability_non_current,False,False,Rezervisanja za troškove obnavljanja prirodnih bogatstava
+ba_402000,402000,Retained deposits and guarantees,liability_non_current,False,False,Obaveze za zadržane kaucije i depozite
+ba_403000,403000,Restructuring provisions,liability_non_current,False,False,Rezervisanja za troškove restrukturiranja
+ba_404000,404000,Employee benefit provisions,liability_non_current,False,False,Rezervisanja za naknade i beneficije zaposlenih
+ba_405000,405000,Litigation provisions,liability_non_current,False,False,Rezervisanja po započetim sudskim sporovima
+ba_406000,406000,Onerous contract provisions,liability_non_current,False,False,Rezervisanja po štetnim ugovorima
+ba_407000,407000,Deferred revenue (long-term),liability_non_current,False,False,"Unaprijed naplaćeni, odgođeni prihodi"
+ba_408000,408000,Deferred tax liabilities,liability_non_current,False,False,Odgođene porezne obaveze
+ba_409000,409000,Other long-term provisions and accruals,liability_non_current,False,False,Ostala dugoročna rezervisanja i razgraničenja
+ba_410000,410000,Convertible liabilities,liability_non_current,False,False,Obaveze koje se mogu konvertirati u kapital
+ba_412000,412000,Liabilities from issued debt instruments,liability_non_current,False,False,Obaveze po izdatim dužničkim instrumentima
+ba_413000,413000,Long-term loans from domestic lenders,liability_non_current,False,False,Dugoročni krediti uzeti u zemlji
+ba_414000,414000,Long-term loans from foreign lenders,liability_non_current,False,False,Dugoročni krediti uzeti u inostranstvu
+ba_415000,415000,Long-term lease liabilities (finance lease),liability_non_current,False,False,Dugoročne obaveze po najmovima (finansijski najam)
+ba_416000,416000,Long-term lease liabilities (operating lease),liability_non_current,False,False,Dugoročne obaveze po najmovima (operativni najam)
+ba_418000,418000,Other long-term financial liabilities at amortised cost,liability_non_current,False,False,Ostale dugoročne finansijske obaveze po amortizovanom trošku
+ba_419000,419000,Other long-term liabilities,liability_non_current,False,False,Ostale dugoročne obaveze
+ba_421000,421000,Liabilities from issued debt instruments (short-term),liability_current,False,False,Obaveze po izdatim dužničkim instrumentima
+ba_422000,422000,Short-term loans from domestic lenders,liability_current,False,False,Kratkoročni krediti uzeti u zemlji
+ba_423000,423000,Short-term loans from foreign lenders,liability_current,False,False,Kratkoročni krediti uzeti u inostranstvu
+ba_424000,424000,Bank overdrafts,liability_current,False,False,Prekoračenja po bankovnim računima
+ba_425000,425000,Short-term lease liabilities (finance lease),liability_current,False,False,Kratkoročne obaveze po najmovima (finansijski najam)
+ba_426000,426000,Short-term lease liabilities (operating lease),liability_current,False,False,Kratkoročne obaveze po najmovima (operativni najam)
+ba_427000,427000,Financial liabilities at fair value through profit or loss,liability_current,False,False,Finansijske obaveze po fer vrijednosti kroz bilans uspjeha
+ba_428000,428000,Other short-term financial liabilities at amortised cost,liability_current,False,False,Ostale kratkoročne finansijske obaveze po amortizovanom trošku
+ba_430000,430000,Received deposits and guarantees,liability_current,False,False,Primljeni depoziti i kaucije
+ba_431000,431000,Suppliers - related parties,liability_payable,True,False,Dobavljači - povezane strane
+ba_432000,432000,Domestic suppliers,liability_payable,True,False,Dobavljači u zemlji
+ba_433000,433000,Foreign suppliers,liability_payable,True,False,Dobavljači u inostranstvu
+ba_434000,434000,Advances received,liability_current,False,False,Primljeni avansi
+ba_435000,435000,Customer loyalty programme liabilities,liability_current,False,False,Obaveze po programu lojalnosti kupaca
+ba_437000,437000,Factoring liabilities,liability_current,False,False,Obaveze po osnovu faktoring poslova
+ba_439000,439000,Other trade payables,liability_current,False,False,Ostale obaveze iz poslovanja
+ba_450000,450000,Net salary and wage liabilities,liability_current,False,False,Obaveze za neto plaće i naknade plaća
+ba_451000,451000,Tax and special levies on salaries,liability_current,False,False,Obaveze za porez i posebne dažbine na plaće i naknade plaća
+ba_452000,452000,Social contributions on salaries,liability_current,False,False,Obaveze za doprinose u vezi plaća i naknada plaća
+ba_453000,453000,Net salary liabilities - refundable,liability_current,False,False,Obaveze za neto naknade plaća koje se refundiraju
+ba_454000,454000,Tax on refundable salary compensations,liability_current,False,False,Obaveze za porez i posebne dažbine na naknade plaća koje se refundiraju
+ba_455000,455000,Social contributions on refundable salary compensations,liability_current,False,False,Obaveze za doprinose u vezi naknada plaća koje se refundiraju
+ba_456000,456000,Other employee benefits and expense reimbursements,liability_current,False,False,"Obaveze za ostala neto primanja, naknade troškova i materijalna prava zaposlenih"
+ba_457000,457000,Tax on other employee benefits,liability_current,False,False,Obaveze za porez i posebne dažbine na ostala primanja zaposlenih
+ba_458000,458000,Social contributions on other employee benefits,liability_current,False,False,Obaveze za doprinose u vezi ostalih primanja zaposlenih
+ba_460000,460000,Interest and financing cost liabilities,liability_current,False,False,Obaveze po osnovu kamata i troškova finansiranja
+ba_461000,461000,Dividend liabilities,liability_current,False,False,Obaveze za dividende
+ba_462000,462000,Profit distribution liabilities,liability_current,False,False,Obaveze za raspodjelu dobiti
+ba_463000,463000,Board and committee member compensation liabilities,liability_current,False,False,"Obaveze za naknade članovima odbora, komisija i sl."
+ba_464000,464000,Tax on board and committee member compensation,liability_current,False,False,"Obaveze za porez i posebne dažbine na naknade članovima odbora, komisija i sl."
+ba_465000,465000,Social contributions on board and committee member compensation,liability_current,False,False,"Obaveze za doprinose u vezi naknada članovima odbora, komisija i sl."
+ba_466000,466000,Liabilities to individuals under contracts,liability_current,False,False,Obaveze prema fizičkim licima za naknade po ugovorima
+ba_467000,467000,Tax on compensation to individuals,liability_current,False,False,Obaveze za porez i posebne dažbine na naknade fizičkim licima
+ba_468000,468000,Social contributions on compensation to individuals,liability_current,False,False,Obaveze za doprinose u vezi naknada fizičkim licima
+ba_469000,469000,Other liabilities,liability_current,False,False,Ostale obaveze
+ba_470000,470000,VAT on supplies to VAT payers,liability_current,False,False,PDV po osnovu isporuka drugim obveznicima PDV-a
+ba_471000,471000,VAT on advances received,liability_current,False,False,PDV po primljenim avansima
+ba_472000,472000,VAT on own consumption for non-business purposes,liability_current,False,False,PDV po osnovu vlastite potrošnje u neposlovne svrhe
+ba_473000,473000,VAT on supplies to non-VAT payers (final consumption),liability_current,False,False,PDV po osnovu isporuka neobveznicima PDV-a (krajnja potrošnja)
+ba_474000,474000,VAT on services from foreign persons,liability_current,False,False,PDV obračunat na usluge stranih lica
+ba_475000,475000,VAT payable under special scheme,liability_current,False,False,Obaveze za uplatu PDV-a po posebnoj šemi
+ba_478000,478000,Other VAT liabilities,liability_current,False,False,Druge obaveze po osnovu PDV-a
+ba_479000,479000,VAT liability for difference between output and input tax,liability_current,False,False,Obaveze za razliku između obaveza za PDV i ulaznog poreza
+ba_480000,480000,Excise duty liabilities,liability_current,False,False,Obaveze za akcize
+ba_481000,481000,Income tax liability,liability_current,False,False,Obaveze za porez na dobit
+ba_482000,482000,"Tax, customs and levy liabilities from procurement or charged to expenses",liability_current,False,False,"Obaveze za poreze, carine i druge dažbine iz nabavke ili na teret troškova"
+ba_483000,483000,Other contribution and membership fee liabilities,liability_current,False,False,"Obaveze za ostale doprinose, članarine i sl. koji terete troškove"
+ba_484000,484000,VAT payable on imports,liability_current,False,False,Obaveze za PDV koji se plaća pri uvozu
+ba_489000,489000,"Other tax, contribution and levy liabilities",liability_current,False,False,"Ostale obaveze za poreze, doprinose i druge dažbine"
+ba_490000,490000,Accrued expenses,liability_current,False,False,Unaprijed obračunati troškovi perioda
+ba_491000,491000,Revenue received in advance,liability_current,False,False,Unaprijed naplaćeni prihodi narednog perioda
+ba_492000,492000,Short-term provisions,liability_current,False,False,Kratkoročna rezervisanja
+ba_493000,493000,Deferred revenue for received donations,liability_current,False,False,Odgođeni prihodi za primljene donacije i sl.
+ba_499000,499000,Other short-term accruals,liability_current,False,False,Ostala kratkoročna razgraničenja
+ba_500000,500000,Goods procurement,expense_direct_cost,False,False,Nabavka robe
+ba_501000,501000,Cost of goods sold,expense_direct_cost,False,False,Nabavna vrijednost prodate robe
+ba_502000,502000,Cost of real estate sold (acquired for resale),expense_direct_cost,False,False,Nabavna vrijednost prodatih nekretnina pribavljenih radi dalje prodaje
+ba_510000,510000,Materials procurement,expense_direct_cost,False,False,Nabavka materijala
+ba_511000,511000,Raw materials consumed,expense_direct_cost,False,False,Utrošene sirovine i materijal
+ba_512000,512000,Energy and fuel consumed,expense_direct_cost,False,False,Utrošena energija i gorivo
+ba_513000,513000,Spare parts consumed,expense_direct_cost,False,False,Utrošeni rezervni dijelovi
+ba_514000,514000,"Write-off of small inventory, packaging and tyres",expense_direct_cost,False,False,"Otpis sitnog inventara, ambalaže i auto guma"
+ba_519000,519000,Price variances,expense_direct_cost,False,False,Odstupanje od cijena
+ba_520000,520000,Salary costs,expense,False,False,Troškovi plaća
+ba_521000,521000,Salary compensation costs,expense,False,False,Troškovi naknada plaća
+ba_523000,523000,Business travel costs,expense,False,False,Troškovi službenih putovanja zaposlenih
+ba_524000,524000,Other employee benefits and material rights,expense,False,False,"Troškovi ostalih primanja, naknada i materijalnih prava zaposlenih"
+ba_527000,527000,Board and committee member compensation,expense,False,False,"Troškovi naknada članovima odbora, komisija i sl."
+ba_529000,529000,Compensation to other individuals,expense,False,False,Troškovi naknada ostalim fizičkim licima
+ba_530000,530000,Product manufacturing and processing service costs,expense,False,False,Troškovi usluga izrade i dorade proizvoda
+ba_531000,531000,Transport service costs,expense,False,False,Troškovi transportnih usluga
+ba_532000,532000,Maintenance service costs,expense,False,False,Troškovi usluga održavanja
+ba_533000,533000,Rental costs,expense,False,False,Troškovi najma
+ba_534000,534000,Trade fair costs,expense,False,False,Troškovi sajmova
+ba_535000,535000,Advertising and sponsorship costs,expense,False,False,Troškovi reklame i sponzorstava
+ba_536000,536000,Research costs,expense,False,False,Troškovi istraživanja
+ba_537000,537000,Non-capitalised development costs,expense,False,False,Troškovi razvoja koji se ne kapitaliziraju
+ba_539000,539000,Other service costs,expense,False,False,Troškovi ostalih usluga
+ba_540000,540000,Depreciation - tax deductible,expense_depreciation,False,False,Amortizacija do visine porezno priznatih rashoda
+ba_541000,541000,Depreciation - temporarily non-deductible,expense_depreciation,False,False,Amortizacija iznad visine porezno priznatih rashoda koja može biti porezno priznata u budućim periodima
+ba_542000,542000,Depreciation - permanently non-deductible,expense_depreciation,False,False,Amortizacija iznad visine porezno priznatih rashoda i drugi troškovi amortizacije koji se tretiraju kao trajno porezno nepriznat rashod
+ba_543000,543000,Warranty provisions,expense,False,False,Rezervisanja za troškove u garantnom roku
+ba_544000,544000,Natural resource restoration provisions,expense,False,False,Rezervisanja za obnavljanje prirodnih bogatstava
+ba_545000,545000,Retained deposit and guarantee provisions,expense,False,False,Rezervisanja za zadržane kaucije i depozite
+ba_546000,546000,Restructuring provisions,expense,False,False,Rezervisanja za restrukturiranje privrednog društva
+ba_547000,547000,Employee benefit provisions,expense,False,False,Rezervisanja za naknade i druge beneficije zaposlenika
+ba_548000,548000,Litigation and onerous contract provisions,expense,False,False,Rezervisanja za započete sudske sporove i po osnovu štetnih ugovora
+ba_549000,549000,Other provisions,expense,False,False,Ostala rezervisanja za troškove i rizike
+ba_550000,550000,Other service costs (non-production),expense,False,False,Troškovi ostalih usluga
+ba_551000,551000,Entertainment costs,expense,False,False,Troškovi reprezentacije
+ba_552000,552000,Insurance premium costs,expense,False,False,Troškovi premija osiguranja
+ba_553000,553000,Payment transaction costs,expense,False,False,Troškovi platnog prometa
+ba_554000,554000,Postal and telecommunication costs,expense,False,False,Troškovi poštanskih i telekomunikacijskih usluga
+ba_555000,555000,"Tax, fee and levy costs charged to company",expense,False,False,"Troškovi poreza, naknada, taksi i drugih dažbina na teret privrednog društva"
+ba_556000,556000,Membership fee costs,expense,False,False,Troškovi članskih doprinosa i sličnih obaveza
+ba_559000,559000,Other non-material costs,expense,False,False,Ostali nematerijalni troškovi
+ba_560000,560000,Interest expense from related parties,expense_other,False,False,Rashodi od kamata od povezanih strana
+ba_561000,561000,Interest expense from unrelated parties,expense_other,False,False,Rashodi od kamata od nepovezanih strana
+ba_562000,562000,Foreign exchange losses,expense_other,False,False,Negativne kursne razlike
+ba_563000,563000,Currency clause losses,expense_other,False,False,Rashodi po osnovu valutne klauzule
+ba_569000,569000,Other financial expenses,expense_other,False,False,Ostali finansijski rashodi
+ba_570000,570000,"Losses on disposal of intangible assets and property, plant and equipment",expense_other,False,False,"Gubici od otuđenja nematerijalne imovine, i nekretnina postrojenja i opreme"
+ba_571000,571000,Losses on disposal of investment property,expense_other,False,False,Gubici od otuđenja investicijskih nekretnina
+ba_572000,572000,Losses on disposal of biological assets,expense_other,False,False,Gubici od otuđenja biološke imovine
+ba_573000,573000,Losses on disposal of non-current assets held for sale and discontinued operations,expense_other,False,False,Gubici od otuđenja dugoročne imovine namijenjene prodaji i imovine poslovanja koje se obustavlja
+ba_574000,574000,Losses on disposal of financial assets and investments in related parties,expense_other,False,False,Gubici od otuđenja finansijske imovine i ulaganja u povezane strane
+ba_575000,575000,Losses on sale of materials,expense_other,False,False,Gubici od prodaje materijala
+ba_576000,576000,Shortages,expense_other,False,False,Manjkovi
+ba_577000,577000,Losses on derivative financial instruments,expense_other,False,False,Gubici od derivatnih finansijskih instrumenata
+ba_578000,578000,Impairment and write-off of receivables,expense_other,False,False,Rashodi po osnovu ispravke vrijednosti i otpisa potraživanja
+ba_579000,579000,Write-offs on material and goods inventories and other expenses,expense_other,False,False,"Rashodovanja na zalihama materijala i robe, i ostali rashodi"
+ba_580000,580000,Impairment of intangible assets,expense_other,False,False,Umanjenje vrijednosti nematerijalne imovine
+ba_581000,581000,"Impairment of property, plant and equipment",expense_other,False,False,Umanjenje vrijednosti nekretnina postrojenja i opreme
+ba_582000,582000,Impairment of investment property at cost,expense_other,False,False,Umanjenje vrijednosti investicijskih nekretnina koje se vode po trošku
+ba_583000,583000,Impairment of biological assets at cost,expense_other,False,False,Umanjenje vrijednosti biološke imovine koja se vodi po trošku
+ba_584000,584000,Impairment of long-term financial assets,expense_other,False,False,Gubici od usklađivanja vrijednosti dugoročne finansijske imovine
+ba_585000,585000,Impairment of inventories,expense_other,False,False,Gubici od usklađivanja vrijednosti zaliha
+ba_586000,586000,Impairment of short-term financial assets,expense_other,False,False,Gubici od usklađivanja vrijednosti kratkoročne finansijske imovine
+ba_587000,587000,Losses on derecognition of right-of-use assets,expense_other,False,False,Gubici od prestanka priznavanja imovine s pravom korištenja
+ba_588000,588000,Impairment of non-current assets held for sale and discontinued operations,expense_other,False,False,Gubici od usklađivanja vrijednosti dugoročne imovine namijenjene prodaji i imovine poslovanja koje se obustavlja
+ba_589000,589000,Impairment of other financial and non-financial assets,expense_other,False,False,Gubici od usklađivanja vrijednosti ostale finansijske i nefinansijske imovine
+ba_590000,590000,Expenses from accounting policy changes,expense_other,False,False,Rashodi po osnovu promjene računovodstvenih politika
+ba_591000,591000,Expenses from prior period error corrections,expense_other,False,False,Rashodi po osnovu ispravki grešaka iz ranijih perioda
+ba_595000,595000,"Increase in finished goods, semi-finished products and work in progress",expense_other,False,False,"Povećanje vrijednosti zaliha gotovih proizvoda, poluproizvoda i proizvodnje u toku"
+ba_596000,596000,"Decrease in finished goods, semi-finished products and work in progress",expense_other,False,False,"Smanjenje vrijednosti zaliha gotovih proizvoda, poluproizvoda i proizvodnje u toku"
+ba_599000,599000,Transfer of expenses,expense_other,False,False,Prijenos rashoda
+ba_600000,600000,Revenue from sales to related parties,income,False,False,Prihodi od prodaje povezanim stranama
+ba_601000,601000,Revenue from domestic sales to unrelated parties,income,False,False,Prihodi od prodaje nepovezanim stranama na domaćem tržištu
+ba_602000,602000,Revenue from export sales to unrelated parties,income,False,False,Prihodi od prodaje nepovezanim stranama na inostranom tržištu
+ba_603000,603000,Discounts and rebates granted,income,False,False,Odobreni popusti i rabati
+ba_610000,610000,Revenue from sales to related parties,income,False,False,Prihodi od prodaje povezanim stranama
+ba_611000,611000,Revenue from domestic sales to unrelated parties,income,False,False,Prihodi od prodaje nepovezanim stranama na domaćem tržištu
+ba_612000,612000,Revenue from export sales to unrelated parties,income,False,False,Prihodi od prodaje nepovezanim stranama na inostranom tržištu
+ba_613000,613000,Discounts and rebates granted,income,False,False,Odobreni popusti i rabati
+ba_620000,620000,Revenue from services to related parties,income,False,False,Prihodi od pruženih usluga povezanim stranama
+ba_621000,621000,Revenue from domestic services to unrelated parties,income,False,False,Prihodi od pruženih usluga nepovezanim stranama na domaćem tržištu
+ba_622000,622000,Revenue from export services to unrelated parties,income,False,False,Prihodi od pruženih usluga nepovezanim stranama na inostranom tržištu
+ba_623000,623000,Discounts and rebates granted,income,False,False,Odobreni popusti i rabati
+ba_640000,640000,Fair value increase of investment property (not depreciated),income,False,False,Povećanje fer vrijednosti investicijskih nekretnina koje se ne amortizuju
+ba_641000,641000,Fair value increase of biological assets (not depreciated),income,False,False,Povećanje fer vrijednosti biološke imovine koja se ne amortizuje
+ba_643000,643000,Fair value decrease of investment property (not depreciated),income,False,False,Smanjenje fer vrijednosti investicijskih nekretnina koje se ne amortizuju
+ba_644000,644000,Fair value decrease of biological assets (not depreciated),income,False,False,Smanjenje fer vrijednosti biološke imovine koja se ne amortizuje
+ba_650000,650000,"Revenue from premiums, subsidies and incentives",income,False,False,"Prihodi od premija, subvencija, poticaja i sl."
+ba_651000,651000,Rental revenue,income,False,False,Prihodi od najma
+ba_652000,652000,Donation revenue,income,False,False,Prihodi od donacija
+ba_653000,653000,Membership fee revenue,income,False,False,Prihodi od članarina
+ba_654000,654000,Royalty and licence revenue,income,False,False,Prihodi od tantijema i licencnih prava
+ba_655000,655000,Revenue from designated funding sources,income,False,False,Prihodi iz namjenskih izvora finansiranja
+ba_656000,656000,Dividend revenue,income,False,False,Prihodi od dividendi
+ba_659000,659000,Other operating revenue,income,False,False,Ostali prihodi po drugim osnovama
+ba_660000,660000,Interest revenue from related parties,income_other,False,False,Prihodi od kamata od povezanih strana
+ba_661000,661000,Interest revenue from unrelated parties,income_other,False,False,Prihodi od kamata od nepovezanih strana
+ba_662000,662000,Foreign exchange gains,income_other,False,False,Pozitivne kursne razlike
+ba_663000,663000,Currency clause gains,income_other,False,False,Prihodi po osnovu valutne klauzule
+ba_669000,669000,Other financial revenue,income_other,False,False,Ostali finansijski prihodi
+ba_670000,670000,"Gains on disposal of intangible assets and property, plant and equipment",income_other,False,False,"Dobici od otuđenja nematerijalne imovine i nekretnina, postrojenja i opreme"
+ba_671000,671000,Gains on disposal of investment property,income_other,False,False,Dobici od otuđenja investicijskih nekretnina
+ba_672000,672000,Gains on disposal of biological assets,income_other,False,False,Dobici od otuđenja biološke imovine
+ba_673000,673000,Gains on disposal of non-current assets held for sale and discontinued operations,income_other,False,False,Dobici od otuđenja dugoročne imovine namijenjene prodaji i imovine poslovanja koje se obustavlja
+ba_674000,674000,Gains on disposal of financial assets and investments in related parties,income_other,False,False,Dobici od otuđenja finansijske imovine i ulaganja u povezane strane
+ba_675000,675000,Gains on sale of materials,income_other,False,False,Dobici od prodaje materijala
+ba_676000,676000,Surpluses,income_other,False,False,Viškovi
+ba_677000,677000,Previously written-off receivables collected,income_other,False,False,Naplaćena ranije otpisana potraživanja
+ba_678000,678000,Gains on derivative financial instruments,income_other,False,False,Dobici od derivatnih finansijskih instrumenata
+ba_679000,679000,"Write-off of liabilities, released provisions and other revenue",income_other,False,False,"Otpis obaveza, ukinuta rezervisanja i ostali prihodi"
+ba_680000,680000,Reversal of impairment of intangible assets,income_other,False,False,Dobici od otpuštanja ranije priznatih gubitaka od umanjenja vrijednosti nematerijalne imovine
+ba_681000,681000,"Reversal of impairment of property, plant and equipment",income_other,False,False,"Dobici od nekretnina, postrojenja i opreme"
+ba_682000,682000,Reversal of impairment of investment property at cost,income_other,False,False,Dobici od otpuštanja ranije priznatih gubitaka od umanjenja vrijednosti investicijskih nekretnina koje se vode po trošku
+ba_683000,683000,Reversal of impairment of biological assets at cost,income_other,False,False,Dobici od otpuštanja ranije priznatih gubitaka od umanjenja vrijednosti biološke imovine koja se vodi po trošku
+ba_684000,684000,Reversal of impairment of long-term financial assets,income_other,False,False,Dobici od usklađivanja vrijednosti dugoročne finansijske imovine
+ba_685000,685000,Reversal of impairment of inventories,income_other,False,False,Dobici od usklađivanja vrijednosti zaliha
+ba_686000,686000,Reversal of impairment of short-term financial assets,income_other,False,False,Dobici od usklađivanja vrijednosti kratkoročne finansijske imovine
+ba_687000,687000,Gains on derecognition of right-of-use assets,income_other,False,False,Dobici od prestanka priznavanja imovine s pravom korištenja
+ba_688000,688000,Reversal of impairment of non-current assets held for sale and discontinued operations,income_other,False,False,Dobici od usklađivanja vrijednosti dugoročne imovine namijenjene prodaji i imovine poslovanja koje se obustavlja
+ba_689000,689000,Reversal of impairment of other financial and non-financial assets,income_other,False,False,Dobici od usklađivanja vrijednosti ostale finansijske i nefinansijske imovine
+ba_690000,690000,Revenue from accounting policy changes,income_other,False,False,Prihodi po osnovu promjene računovodstvenih politika
+ba_691000,691000,Revenue from prior period error corrections,income_other,False,False,Prihodi po osnovu ispravki grešaka iz ranijih perioda
+ba_699000,699000,Transfer of revenue,income_other,False,False,Prijenos prihoda
+ba_700000,700000,Opening of general ledger,equity_unaffected,False,False,Otvaranje glavne knjige finansijskog računovodstva
+ba_710000,710000,Total revenue,equity_unaffected,False,False,Ukupni prihodi
+ba_711000,711000,Total expenses,equity_unaffected,False,False,Ukupni rashodi
+ba_712000,712000,Transfer of period result,equity_unaffected,False,False,Prijenos rezultata perioda
+ba_720000,720000,Profit or loss,equity_unaffected,False,False,Dobit ili gubitak
+ba_721000,721000,Income tax,equity_unaffected,False,False,Porez na dobit
+ba_722000,722000,Effect of decrease in deferred tax assets,equity_unaffected,False,False,Efekat smanjenja odgođene porezne imovine
+ba_723000,723000,Effect of increase in deferred tax assets,equity_unaffected,False,False,Efekat povećanja odgođene porezne imovine
+ba_724000,724000,Effect of increase in deferred tax liabilities,equity_unaffected,False,False,Efekat povećanja odgođenih poreznih obaveza
+ba_725000,725000,Effect of decrease in deferred tax liabilities,equity_unaffected,False,False,Efekat smanjenja odgođenih poreznih obaveza
+ba_726000,726000,Transfer of profit or loss,equity_unaffected,False,False,Prenos dobiti ili gubitka
+ba_730000,730000,Closing of balance sheet accounts,equity_unaffected,False,False,Zaključak konta stanja
+ba_900000,900000,Transfer of inventories,off_balance,False,False,"Preuzimanje zaliha, na početku poslovne godine,"
+ba_901000,901000,Transfer of material and goods procurement,off_balance,False,False,Preuzimanje nabavke materijala i robe
+ba_902000,902000,Transfer of costs,off_balance,False,False,Preuzimanje troškova
+ba_903000,903000,Transfer of revenue,off_balance,False,False,Preuzimanje prihoda
+ba_910000,910000,Materials,off_balance,False,False,"Materijal, odnosno na posebnim analitičkim kontima u okviru ovog konta,"
+ba_911000,911000,Goods,off_balance,False,False,Roba
+ba_912000,912000,Products and goods in manufacturer retail stores,off_balance,False,False,"Proizvodi i roba u prodavnici proizvođača, na posebnim analitičkim kontima,"
+ba_950000,950000,Unfinished outputs,off_balance,False,False,Nedovršeni učinci
+ba_951000,951000,Transfer of products from production to warehouse,off_balance,False,False,Prijenos proizvoda iz proizvodnje u skladište
+ba_952000,952000,Transfer of semi-finished products from production to warehouse,off_balance,False,False,Prijenos poluproizvoda iz proizvodnje u skladište
+ba_953000,953000,Transfer of costs of realised services,off_balance,False,False,Prijenos troškova realizovanih usluga
+ba_957000,957000,Costs of consumed semi-finished products,off_balance,False,False,Troškovi utrošenih poluproizvoda
+ba_958000,958000,Semi-finished products in warehouse,off_balance,False,False,Poluproizvodi u skladištu
+ba_959000,959000,Cost carrier cost variances,off_balance,False,False,Odstupanja u troškovima nosilaca troškova
+ba_960000,960000,Finished products,off_balance,False,False,Gotovi proizvodi
+ba_969000,969000,Finished product cost variances,off_balance,False,False,Odstupanja u troškovima gotovih proizvoda
+ba_980000,980000,Cost of products and services sold,off_balance,False,False,Troškovi prodatih proizvoda i usluga
+ba_981000,981000,Cost of goods sold,off_balance,False,False,Nabavna vrijednost prodate robe
+ba_982000,982000,Period costs,off_balance,False,False,Troškovi perioda
+ba_983000,983000,"Write-offs, shortages and surpluses of product inventories",off_balance,False,False,"Otpis, manjkovi i viškovi zaliha proizvoda"
+ba_985000,985000,Unassigned account,off_balance,False,False,Slobodni konto
+ba_986000,986000,Revenue from sale of products and services,off_balance,False,False,Prihodi po osnovu prodaje proizvoda i usluga
+ba_987000,987000,Revenue from sale of goods,off_balance,False,False,Prihodi po osnovu prodaje robe
+ba_988000,988000,Unassigned account,off_balance,False,False,Slobodni konto
+ba_989000,989000,Other revenue,off_balance,False,False,Ostali prihodi
+ba_990000,990000,Operating profit or loss,off_balance,False,False,Poslovni dobitak i gubitak
+ba_991000,991000,Profit or loss on sale of materials,off_balance,False,False,Dobitak i gubitak po osnovu prodaje materijala
+ba_992000,992000,Shortages of materials and goods,off_balance,False,False,Manjkovi materijala i robe
+ba_993000,993000,Write-offs of materials and goods,off_balance,False,False,Otpisi materijala i robe
+ba_994000,994000,Surpluses of materials and goods,off_balance,False,False,Viškovi materijala i robe
+ba_999000,999000,Closing of cost accounting,off_balance,False,False,Zaključak obračuna troškova i proizvoda
