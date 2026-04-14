@@ -33,7 +33,7 @@ class AccountChartTemplate(models.AbstractModel):
                 "account_sale_tax_id": "VAT_S_17",
                 "account_purchase_tax_id": "VAT_P_17",
                 "expense_account_id": "ba_550000",
-                "income_account_id": "ba_659000",
+                "income_account_id": "ba_601000",
             },
         }
 
