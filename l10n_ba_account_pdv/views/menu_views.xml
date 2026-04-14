@@ -5,14 +5,14 @@
 
     <menuitem
         id="menu_pdv_root"
-        name="PDV izvještaji"
+        name="VAT Reports"
         parent="l10n_ba.account_reports_ba_statements_menu"
         sequence="10"
     />
 
     <menuitem
         id="menu_pdv_prijava"
-        name="Obrazac P PDV"
+        name="Form P VAT"
         parent="menu_pdv_root"
         action="action_account_pdv_report"
         sequence="1"
@@ -20,7 +20,7 @@
 
     <menuitem
         id="menu_dpdv"
-        name="Obrazac D PDV"
+        name="Form D VAT"
         parent="menu_pdv_root"
         action="action_account_dpdv_report"
         sequence="2"
@@ -28,7 +28,7 @@
 
     <menuitem
         id="menu_kif"
-        name="KIF - Knjiga izlaznih faktura"
+        name="KIF - Sales Invoice Book"
         parent="menu_pdv_root"
         action="action_account_kif_report"
         sequence="10"
@@ -36,7 +36,7 @@
 
     <menuitem
         id="menu_kuf"
-        name="KUF - Knjiga ulaznih faktura"
+        name="KUF - Purchase Invoice Book"
         parent="menu_pdv_root"
         action="action_account_kuf_report"
         sequence="20"

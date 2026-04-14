@@ -2,16 +2,16 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "BiH - Računovodstvo",
+    "name": "Bosnia and Herzegovina - Accounting",
     "version": "19.0.1.0.0",
     "category": "Accounting/Localizations/Account Charts",
-    "summary": "Kontni plan, porezi i fiskalne pozicije za Bosnu i Hercegovinu",
+    "summary": "Chart of accounts, taxes and fiscal positions for Bosnia and Herzegovina",
     "description": """
-Kontni plan za privredna društva u Bosni i Hercegovini
+Chart of accounts for companies in Bosnia and Herzegovina.
 
-Izvori:
-- Pravilnik o kontnom okviru i sadržaju konta za privredna društva
-  (Službene novine Federacije BiH, broj 81/21)
+Sources:
+- Rulebook on chart of accounts and account contents for companies
+  (Official Gazette of FBiH, No. 81/21)
     """,
     "author": "Viavista d.o.o., Odoo Community Association (OCA)",
     "website": "https://github.com/viavista/viavista-odoo-modules",

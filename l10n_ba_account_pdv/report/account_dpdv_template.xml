@@ -4,7 +4,7 @@
 <odoo>
 
     <record id="action_report_dpdv" model="ir.actions.report">
-        <field name="name">Obrazac D PDV</field>
+        <field name="name">Form D VAT</field>
         <field name="model">account.dpdv.report</field>
         <field name="report_type">qweb-pdf</field>
         <field name="report_name">l10n_ba_account_pdv.report_dpdv</field>
@@ -25,7 +25,7 @@
                     <table style="width: 100%; margin-bottom: 10px;">
                         <tr>
                             <td>1. Naziv: <span t-out="doc.company_name"/></td>
-                            <td>2. Identifikacioni broj: <span t-out="doc.company_jib"/></td>
+                            <td>2. Identifikacioni broj: <span t-out="doc.company_vat"/></td>
                         </tr>
                         <tr>
                             <td>3. Adresa: <span t-out="doc.company_address"/></td>

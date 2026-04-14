@@ -4,7 +4,7 @@
 <odoo>
     <menuitem
         id="account_reports_ba_statements_menu"
-        name="Bosna i Hercegovina"
+        name="Bosnia and Herzegovina"
         parent="account.menu_finance_reports"
         sequence="0"
         groups="account.group_account_readonly"

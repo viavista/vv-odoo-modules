@@ -7,17 +7,17 @@
         <field name="name">account.dpdv.report.form</field>
         <field name="model">account.dpdv.report</field>
         <field name="arch" type="xml">
-            <form string="Obrazac D PDV - Dodatak uz PDV prijavu">
+            <form string="Form D VAT - Supplementary VAT Declaration">
                 <header>
                     <button
                         name="action_generate"
-                        string="Generiši"
+                        string="Generate"
                         type="object"
                         class="btn-primary"
                     />
                     <button
                         name="action_print_pdf"
-                        string="Štampaj PDF"
+                        string="Print PDF"
                         type="object"
                         invisible="not generated"
                     />
@@ -30,11 +30,11 @@
                     <group>
                         <field name="company_id" groups="base.group_multi_company"/>
                         <field name="company_name" readonly="1"/>
-                        <field name="company_jib" readonly="1"/>
+                        <field name="company_vat" readonly="1"/>
                     </group>
                 </group>
                 <notebook>
-                    <page string="II. Isporuke i PDV na izlaze">
+                    <page string="II. Supplies and output VAT">
                         <group>
                             <field name="out_1_base"/>
                             <field name="out_2_base"/>
@@ -42,64 +42,64 @@
                             <field name="out_4_base"/>
                             <field name="out_5_base"/>
                         </group>
-                        <group string="Sa obračunom PDV-a">
-                            <label for="out_6_base" string="6. Promet nekretnina"/>
+                        <group string="With VAT calculation">
+                            <label for="out_6_base" string="6. Real estate"/>
                             <div class="o_row">
-                                <field name="out_6_base" string="Osnovica"/>
-                                <field name="out_6_pdv" string="PDV"/>
+                                <field name="out_6_base" string="Base"/>
+                                <field name="out_6_pdv" string="VAT"/>
                             </div>
                             <field name="out_7_pdv"/>
-                            <label for="out_8_base" string="8. PDV vraćen stranim državljanima"/>
+                            <label for="out_8_base" string="8. VAT refunded to foreign citizens"/>
                             <div class="o_row">
-                                <field name="out_8_base" string="Osnovica"/>
-                                <field name="out_8_pdv" string="PDV"/>
+                                <field name="out_8_base" string="Base"/>
+                                <field name="out_8_pdv" string="VAT"/>
                             </div>
-                            <label for="out_9_base" string="9. Izdate KO kupcima"/>
+                            <label for="out_9_base" string="9. Credit notes to buyers"/>
                             <div class="o_row">
-                                <field name="out_9_base" string="Osnovica"/>
-                                <field name="out_9_pdv" string="PDV"/>
+                                <field name="out_9_base" string="Base"/>
+                                <field name="out_9_pdv" string="VAT"/>
                             </div>
                             <field name="out_10_pdv"/>
                         </group>
                     </page>
-                    <page string="III. Nabavke i PDV na ulaze">
+                    <page string="III. Purchases and input VAT">
                         <group>
                             <field name="in_1_base"/>
-                            <label for="in_2_base" string="2. Nabavka nekretnina"/>
+                            <label for="in_2_base" string="2. Real estate purchase"/>
                             <div class="o_row">
-                                <field name="in_2_base" string="Osnovica"/>
-                                <field name="in_2_pdv" string="PDV"/>
+                                <field name="in_2_base" string="Base"/>
+                                <field name="in_2_pdv" string="VAT"/>
                             </div>
-                            <label for="in_3_base" string="3. Oprema - domaća"/>
+                            <label for="in_3_base" string="3. Domestic equipment"/>
                             <div class="o_row">
-                                <field name="in_3_base" string="Osnovica"/>
-                                <field name="in_3_pdv" string="PDV"/>
+                                <field name="in_3_base" string="Base"/>
+                                <field name="in_3_pdv" string="VAT"/>
                             </div>
-                            <label for="in_4_base" string="4. Oprema - uvoz"/>
+                            <label for="in_4_base" string="4. Imported equipment"/>
                             <div class="o_row">
-                                <field name="in_4_base" string="Osnovica"/>
-                                <field name="in_4_pdv" string="PDV"/>
+                                <field name="in_4_base" string="Base"/>
+                                <field name="in_4_pdv" string="VAT"/>
                             </div>
-                            <label for="in_5_base" string="5. Proporcionalni odbitak"/>
+                            <label for="in_5_base" string="5. Proportional deduction"/>
                             <div class="o_row">
-                                <field name="in_5_base" string="Osnovica"/>
-                                <field name="in_5_pdv" string="PDV"/>
+                                <field name="in_5_base" string="Base"/>
+                                <field name="in_5_pdv" string="VAT"/>
                             </div>
-                            <label for="in_6_base" string="6. Usluge iz inostranstva"/>
+                            <label for="in_6_base" string="6. Foreign services"/>
                             <div class="o_row">
-                                <field name="in_6_base" string="Osnovica"/>
-                                <field name="in_6_pdv" string="PDV"/>
+                                <field name="in_6_base" string="Base"/>
+                                <field name="in_6_pdv" string="VAT"/>
                             </div>
                             <field name="in_7_pdv"/>
-                            <label for="in_8_base" string="8. Primljene KO"/>
+                            <label for="in_8_base" string="8. Credit notes received"/>
                             <div class="o_row">
-                                <field name="in_8_base" string="Osnovica"/>
-                                <field name="in_8_pdv" string="PDV"/>
+                                <field name="in_8_base" string="Base"/>
+                                <field name="in_8_pdv" string="VAT"/>
                             </div>
                             <field name="in_9_pdv"/>
                         </group>
                     </page>
-                    <page string="IV. Zalihe">
+                    <page string="IV. Inventory">
                         <group>
                             <field name="stock_value"/>
                         </group>
@@ -110,7 +110,7 @@
     </record>
 
     <record id="action_account_dpdv_report" model="ir.actions.act_window">
-        <field name="name">Obrazac D PDV</field>
+        <field name="name">Form D VAT</field>
         <field name="res_model">account.dpdv.report</field>
         <field name="view_mode">form</field>
         <field name="target">current</field>

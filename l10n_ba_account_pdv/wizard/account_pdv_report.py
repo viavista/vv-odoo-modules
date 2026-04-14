@@ -6,7 +6,7 @@ from odoo import api, fields, models
 
 class AccountPdvReport(models.TransientModel):
     _name = "account.pdv.report"
-    _description = "Obrazac P PDV - PDV prijava"
+    _description = "Form P VAT - VAT Declaration"
 
     date_from = fields.Date(
         required=True,
@@ -25,52 +25,52 @@ class AccountPdvReport(models.TransientModel):
 
     # Header
     company_name = fields.Char(compute="_compute_header", store=True)
-    company_jib = fields.Char(compute="_compute_header", store=True)
+    company_vat = fields.Char(compute="_compute_header", store=True)
     company_address = fields.Char(compute="_compute_header", store=True)
     company_zip_city = fields.Char(compute="_compute_header", store=True)
 
-    # I. Isporuke i nabavke (bez PDV-a)
-    # IZLAZI
-    field_11 = fields.Float("r.11 Isporuke", digits=(16, 2))
-    field_12 = fields.Float("r.12 Vrijednost izvoza", digits=(16, 2))
-    field_13 = fields.Float("r.13 Oslobođene isporuke", digits=(16, 2))
-    # ULAZI
-    field_21 = fields.Float("r.21 Sve nabavke", digits=(16, 2))
-    field_22 = fields.Float("r.22 Vrijednost uvoza", digits=(16, 2))
-    field_23 = fields.Float("r.23 Nabavke od poljoprivrednika", digits=(16, 2))
+    # I. Supplies and purchases (excl. VAT)
+    # OUTPUT
+    field_11 = fields.Float("r.11 Supplies", digits=(16, 2))
+    field_12 = fields.Float("r.12 Export value", digits=(16, 2))
+    field_13 = fields.Float("r.13 Exempt supplies", digits=(16, 2))
+    # INPUT
+    field_21 = fields.Float("r.21 All purchases", digits=(16, 2))
+    field_22 = fields.Float("r.22 Import value", digits=(16, 2))
+    field_23 = fields.Float("r.23 Purchases from farmers", digits=(16, 2))
 
-    # II. PDV
+    # II. VAT
     field_41 = fields.Float(
-        "r.41 Ulazni PDV od registrovanih obveznika", digits=(16, 2),
+        "r.41 Input VAT from registered taxpayers", digits=(16, 2),
     )
-    field_42 = fields.Float("r.42 PDV na uvoz", digits=(16, 2))
+    field_42 = fields.Float("r.42 VAT on imports", digits=(16, 2))
     field_43 = fields.Float(
-        "r.43 Paušalna naknada za poljoprivrednike", digits=(16, 2),
+        "r.43 Flat-rate compensation for farmers", digits=(16, 2),
     )
-    field_51 = fields.Float("r.51 Izlazni PDV", digits=(16, 2))
+    field_51 = fields.Float("r.51 Output VAT", digits=(16, 2))
     field_61 = fields.Float(
-        "r.61 Ulazni PDV ukupno", digits=(16, 2),
+        "r.61 Total input VAT", digits=(16, 2),
         compute="_compute_totals", store=True,
     )
     field_71 = fields.Float(
-        "r.71 Iznos za uplatu/povrat", digits=(16, 2),
+        "r.71 Amount due/refund", digits=(16, 2),
         compute="_compute_totals", store=True,
     )
 
-    # III. Krajnja potrošnja
-    field_32 = fields.Float("r.32 Federacija BiH", digits=(16, 2))
+    # III. Final consumption
+    field_32 = fields.Float("r.32 Federation of BiH", digits=(16, 2))
     field_33 = fields.Float("r.33 Republika Srpska", digits=(16, 2))
-    field_34 = fields.Float("r.34 Brčko Distrikt", digits=(16, 2))
+    field_34 = fields.Float("r.34 Brcko District", digits=(16, 2))
 
-    field_80 = fields.Boolean("r.80 Zahtjev za povrat")
+    field_80 = fields.Boolean("r.80 Refund request")
 
     @api.depends("company_id")
     def _compute_header(self):
         for rec in self:
             partner = rec.company_id.partner_id
             rec.company_name = partner.name or ""
-            rec.company_jib = (
-                partner.l10n_ba_jib or partner.vat or ""
+            rec.company_vat = (
+                partner.vat or ""
             )
             rec.company_address = partner.street or ""
             rec.company_zip_city = " ".join(

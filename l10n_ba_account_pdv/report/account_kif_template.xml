@@ -4,12 +4,12 @@
 <odoo>
 
     <record id="action_report_kif" model="ir.actions.report">
-        <field name="name">KIF - Knjiga izlaznih faktura</field>
+        <field name="name">KIF - Sales Invoice Book</field>
         <field name="model">account.kif.report</field>
         <field name="report_type">qweb-pdf</field>
         <field name="report_name">l10n_ba_account_pdv.report_kif</field>
         <field name="report_file">l10n_ba_account_pdv.report_kif</field>
-        <field name="paperformat_id" ref="base.paperformat_euro_landscape"/>
+
     </record>
 
     <template id="report_kif">
@@ -71,7 +71,7 @@
                                         <td t-out="line.invoice_number"/>
                                         <td class="text-center" t-field="line.invoice_date"/>
                                         <td t-out="line.partner_name"/>
-                                        <td t-out="line.partner_jib"/>
+                                        <td t-out="line.partner_vat_id"/>
                                         <td class="text-end" t-out="'%.2f' % line.internal_amount"/>
                                         <td class="text-end" t-out="'%.2f' % line.base_amount"/>
                                         <td class="text-end" t-out="'%.2f' % line.export_amount"/>

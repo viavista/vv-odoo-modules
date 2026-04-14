@@ -2,10 +2,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
 {
-    "name": "BiH - PDV izvještaji",
+    "name": "Bosnia and Herzegovina - VAT Reports",
     "version": "19.0.1.0.0",
     "category": "Accounting/Localizations",
-    "summary": "KIF, KUF, Obrazac P PDV i D PDV za Bosnu i Hercegovinu",
+    "summary": "KIF, KUF, Form P VAT and D VAT for Bosnia and Herzegovina",
     "author": "Viavista d.o.o., Odoo Community Association (OCA)",
     "website": "https://github.com/viavista/viavista-odoo-modules",
     "license": "AGPL-3",

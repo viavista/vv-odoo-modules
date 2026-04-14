@@ -7,17 +7,17 @@
         <field name="name">account.kif.report.form</field>
         <field name="model">account.kif.report</field>
         <field name="arch" type="xml">
-            <form string="KIF - Knjiga izlaznih faktura">
+            <form string="KIF - Sales Invoice Book">
                 <header>
                     <button
                         name="action_generate"
-                        string="Generiši"
+                        string="Generate"
                         type="object"
                         class="btn-primary"
                     />
                     <button
                         name="action_print_pdf"
-                        string="Štampaj PDF"
+                        string="Print PDF"
                         type="object"
                         invisible="not line_ids"
                     />
@@ -32,24 +32,24 @@
                     </group>
                 </group>
                 <notebook invisible="not line_ids">
-                    <page string="KIF stavke">
+                    <page string="KIF Lines">
                         <field name="line_ids" readonly="1">
                             <list>
-                                <field name="sequence" string="R.br."/>
-                                <field name="invoice_number" string="Broj fakture"/>
-                                <field name="invoice_date" string="Datum"/>
-                                <field name="partner_name" string="Kupac"/>
-                                <field name="partner_jib" string="JIB/PIB"/>
-                                <field name="base_amount" string="Osnovica" sum="Ukupno"/>
-                                <field name="export_amount" string="Izvoz" sum="Ukupno"/>
-                                <field name="exempt_amount" string="Oslobođeno" sum="Ukupno"/>
-                                <field name="pdv_amount" string="PDV" sum="Ukupno"/>
-                                <field name="registered_base" string="Obv. osnov." sum="Ukupno" optional="show"/>
-                                <field name="registered_pdv" string="Obv. PDV" sum="Ukupno" optional="show"/>
-                                <field name="fc_fbih" string="FBiH" sum="Ukupno" optional="hide"/>
-                                <field name="fc_rs" string="RS" sum="Ukupno" optional="hide"/>
-                                <field name="fc_brcko" string="Brčko" sum="Ukupno" optional="hide"/>
-                                <field name="fc_pdv" string="KP PDV" sum="Ukupno" optional="hide"/>
+                                <field name="sequence" string="No."/>
+                                <field name="invoice_number" string="Invoice No."/>
+                                <field name="invoice_date" string="Date"/>
+                                <field name="partner_name" string="Customer"/>
+                                <field name="partner_vat_id" string="VAT ID"/>
+                                <field name="base_amount" string="Base" sum="Total"/>
+                                <field name="export_amount" string="Export" sum="Total"/>
+                                <field name="exempt_amount" string="Exempt" sum="Total"/>
+                                <field name="pdv_amount" string="VAT" sum="Total"/>
+                                <field name="registered_base" string="Reg. base" sum="Total" optional="show"/>
+                                <field name="registered_pdv" string="Reg. VAT" sum="Total" optional="show"/>
+                                <field name="fc_fbih" string="FBiH" sum="Total" optional="hide"/>
+                                <field name="fc_rs" string="RS" sum="Total" optional="hide"/>
+                                <field name="fc_brcko" string="Brcko" sum="Total" optional="hide"/>
+                                <field name="fc_pdv" string="FC VAT" sum="Total" optional="hide"/>
                             </list>
                         </field>
                     </page>
@@ -59,7 +59,7 @@
     </record>
 
     <record id="action_account_kif_report" model="ir.actions.act_window">
-        <field name="name">KIF - Knjiga izlaznih faktura</field>
+        <field name="name">KIF - Sales Invoice Book</field>
         <field name="res_model">account.kif.report</field>
         <field name="view_mode">form</field>
         <field name="target">current</field>

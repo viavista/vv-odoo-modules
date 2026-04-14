@@ -7,17 +7,17 @@
         <field name="name">account.kuf.report.form</field>
         <field name="model">account.kuf.report</field>
         <field name="arch" type="xml">
-            <form string="KUF - Knjiga ulaznih faktura">
+            <form string="KUF - Purchase Invoice Book">
                 <header>
                     <button
                         name="action_generate"
-                        string="Generiši"
+                        string="Generate"
                         type="object"
                         class="btn-primary"
                     />
                     <button
                         name="action_print_pdf"
-                        string="Štampaj PDF"
+                        string="Print PDF"
                         type="object"
                         invisible="not line_ids"
                     />
@@ -32,22 +32,22 @@
                     </group>
                 </group>
                 <notebook invisible="not line_ids">
-                    <page string="KUF stavke">
+                    <page string="KUF Lines">
                         <field name="line_ids" readonly="1">
                             <list>
-                                <field name="sequence" string="R.br."/>
-                                <field name="invoice_number" string="Broj fakture"/>
-                                <field name="invoice_date" string="Datum"/>
-                                <field name="partner_name" string="Dobavljač"/>
-                                <field name="partner_jib" string="JIB"/>
-                                <field name="base_amount" string="Bez PDV" sum="Ukupno"/>
-                                <field name="total_with_pdv" string="Sa PDV" sum="Ukupno"/>
-                                <field name="total_input_pdv" string="Ulazni PDV" sum="Ukupno"/>
-                                <field name="deductible_pdv" string="Odbitni" sum="Ukupno"/>
-                                <field name="non_deductible_pdv" string="Neodbitni" sum="Ukupno" optional="show"/>
-                                <field name="non_pdv_purchase" string="Bez obv." sum="Ukupno" optional="hide"/>
-                                <field name="flat_rate_amount" string="Paušal" sum="Ukupno" optional="hide"/>
-                                <field name="farmer_rate" string="5% polj." sum="Ukupno" optional="hide"/>
+                                <field name="sequence" string="No."/>
+                                <field name="invoice_number" string="Invoice No."/>
+                                <field name="invoice_date" string="Date"/>
+                                <field name="partner_name" string="Supplier"/>
+                                <field name="partner_vat_id" string="VAT ID"/>
+                                <field name="base_amount" string="Excl. VAT" sum="Total"/>
+                                <field name="total_with_pdv" string="Incl. VAT" sum="Total"/>
+                                <field name="total_input_pdv" string="Input VAT" sum="Total"/>
+                                <field name="deductible_pdv" string="Deductible" sum="Total"/>
+                                <field name="non_deductible_pdv" string="Non-deduct." sum="Total" optional="show"/>
+                                <field name="non_pdv_purchase" string="Non-VAT" sum="Total" optional="hide"/>
+                                <field name="flat_rate_amount" string="Flat-rate" sum="Total" optional="hide"/>
+                                <field name="farmer_rate" string="5% farmer" sum="Total" optional="hide"/>
                             </list>
                         </field>
                     </page>
@@ -57,7 +57,7 @@
     </record>
 
     <record id="action_account_kuf_report" model="ir.actions.act_window">
-        <field name="name">KUF - Knjiga ulaznih faktura</field>
+        <field name="name">KUF - Purchase Invoice Book</field>
         <field name="res_model">account.kuf.report</field>
         <field name="view_mode">form</field>
         <field name="target">current</field>

@@ -4,7 +4,7 @@
 <odoo>
 
     <record id="action_report_pdv" model="ir.actions.report">
-        <field name="name">Obrazac P PDV</field>
+        <field name="name">Form P VAT</field>
         <field name="model">account.pdv.report</field>
         <field name="report_type">qweb-pdf</field>
         <field name="report_name">l10n_ba_account_pdv.report_pdv</field>
@@ -35,7 +35,7 @@
                             <td style="width: 40%; vertical-align: top; padding-left: 20px;">
                                 <div><strong>Identifikacioni broj <small>1</small></strong></div>
                                 <div style="border: 1px solid #000; padding: 5px; font-size: 14px; letter-spacing: 3px;"
-                                     t-out="doc.company_jib"/>
+                                     t-out="doc.company_vat"/>
                                 <div style="margin-top: 10px;"><strong>Period <small>2</small></strong></div>
                                 <div style="border-bottom: 1px solid #000; padding: 3px;">
                                     <span t-field="doc.date_from"/> — <span t-field="doc.date_to"/>

@@ -1,0 +1,1446 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ba_account_pdv
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-13 17:40+0000\n"
+"PO-Revision-Date: 2026-04-13 17:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "(1) Opis"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "(2) Iznos bez PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "(3) PDV na izlaze"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "(3) PDV na ulaze"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "1. Naziv:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "2. Identifikacioni broj:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "2. Real estate purchase"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "3. Adresa:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "3. Domestic equipment"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "4. Imported equipment"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "5% farmer"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "5% čl.85"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "5. Period:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "5. Proportional deduction"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "6. Foreign services"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "6. Real estate"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "8. Credit notes received"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "8. VAT refunded to foreign citizens"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "9. Credit notes to buyers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>11</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>12</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>13</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>21</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>22</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>23</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>32</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>33</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>34</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>41</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>42</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>43</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>51</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>61</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>71</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>80</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Adresa <small>4</small></strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Identifikacioni broj <small>1</small></strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid ""
+"<strong>Iznos PDV-a za uplatu/povrat</strong><br/>\n"
+"                                <small>Razlika polja 51 i 61</small>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Naziv poreznog obveznika <small>3</small></strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Ovim potvrđujem da su navedeni podaci tačni.</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>PDV obračunat na izlaze</strong><br/>(dobra i usluge)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid ""
+"<strong>PDV obračunat na ulaze</strong> (dobra i usluge)<br/>\n"
+"                                    Od registrovanih obveznika PDV-a osim iznosa u poljima 42 i 43:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Period <small>2</small></strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "<strong>Period od:</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "<strong>Porezni obveznik:</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Poštanski broj/Mjesto <small>5</small></strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "<strong>Ulazni PDV (ukupno)</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "<strong>do:</strong>"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Base"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__base_amount
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__base_amount
+msgid "Base Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Bez PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Brcko"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Broj fakture"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Brčko"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Brčko Distriktu"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__company_id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__company_id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__company_id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__company_id
+msgid "Company"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__company_address
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__company_address
+msgid "Company Address"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__company_jib
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__company_jib
+msgid "Company Jib"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__company_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__company_zip_city
+msgid "Company Zip City"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__compensation_value
+msgid "Compensation Value"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__create_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__create_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__create_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__create_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__create_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__create_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__create_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__create_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__create_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__create_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Customer"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "DODATAK UZ PDV PRIJAVU"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Date"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__date_from
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__date_from
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__date_from
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__date_from
+msgid "Date From"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__date_to
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__date_to
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__date_to
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__date_to
+msgid "Date To"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Datum"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Datum: _______________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Datum: ___________________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Deductible"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__deductible_pdv
+msgid "Deductible Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__display_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__display_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__display_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__display_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__display_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Excl. VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Exempt"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__exempt_amount
+msgid "Exempt Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Export"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__export_amount
+msgid "Export Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "FBiH"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "FC VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__farmer_rate
+msgid "Farmer Rate"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__fc_brcko
+msgid "Fc Brcko"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__fc_fbih
+msgid "Fc Fbih"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__fc_pdv
+msgid "Fc Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__fc_rs
+msgid "Fc Rs"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Federaciji BiH"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__flat_rate_amount
+msgid "Flat Rate Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Flat-rate"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.actions.act_window,name:l10n_ba_account_pdv.action_account_dpdv_report
+#: model:ir.actions.report,name:l10n_ba_account_pdv.action_report_dpdv
+#: model:ir.ui.menu,name:l10n_ba_account_pdv.menu_dpdv
+msgid "Form D VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_dpdv_report
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "Form D VAT - Supplementary VAT Declaration"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.actions.act_window,name:l10n_ba_account_pdv.action_account_pdv_report
+#: model:ir.actions.report,name:l10n_ba_account_pdv.action_report_pdv
+#: model:ir.ui.menu,name:l10n_ba_account_pdv.menu_pdv_prijava
+msgid "Form P VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_pdv_report
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "Form P VAT - VAT Declaration"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "Generate"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__generated
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__generated
+msgid "Generated"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "I. Isporuke i nabavke (svi iznosi iskazani bez PDV-a)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "I. PODACI O POREZNOM OBVEZNIKU"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "I. Supplies and purchases (excl. VAT)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "II. ISPORUKE I PDV OBRAČUNAT NA IZLAZE"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "II. Izlazni PDV / Ulazni PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "II. Output and input VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "II. Supplies and output VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_1_base
+msgid "II.1 Non-taxable turnover (art. 3, 15)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_10_pdv
+msgid "II.10 Unpaid VAT under special scheme (art. 41, 66)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_2_base
+msgid "II.2 Supplies to EUFOR and NATO"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_3_base
+msgid "II.3 Exempt supplies - IPA fund (art. 29)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_4_base
+msgid "II.4 Import-related services exempt from VAT (art. 26)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_5_base
+msgid "II.5 Transfer of assets (art. 7)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_6_base
+msgid "II.6 Real estate - first transfer"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_6_pdv
+msgid "II.6 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_7_pdv
+msgid "II.7 VAT on services by foreign persons (art. 13)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_8_pdv
+msgid "II.8 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_8_base
+msgid "II.8 VAT refunded to foreign citizens (PDV-SL-2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_9_base
+msgid "II.9 Credit notes issued to domestic buyers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__out_9_pdv
+msgid "II.9 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "III. Final consumption"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "III. NABAVKE I PDV OBRAČUNAT NA ULAZE"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "III. PODACI O KRAJNJOJ POTROŠNJI"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "III. Purchases and input VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_1_base
+msgid "III.1 Acquisition of assets (art. 7)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_2_base
+msgid "III.2 Real estate purchase with deduction right"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_2_pdv
+msgid "III.2 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_3_base
+msgid "III.3 Domestic equipment purchase with deduction right"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_3_pdv
+msgid "III.3 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_4_base
+msgid "III.4 Imported equipment with deduction right"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_4_pdv
+msgid "III.4 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_5_base
+msgid "III.5 Proportional deduction (art. 37)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_5_pdv
+msgid "III.5 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_6_base
+msgid "III.6 Foreign services with deduction right"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_6_pdv
+msgid "III.6 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_7_pdv
+msgid "III.7 VAT under construction special scheme (art. 42)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_8_base
+msgid "III.8 Credit notes received from suppliers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_8_pdv
+msgid "III.8 VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__in_9_pdv
+msgid "III.9 Input VAT deduction correction (art. 36)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "INPUT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "IV. Inventory"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "IV. PODACI O ZALIHAMA"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__stock_value
+msgid "IV.1 Inventory at end of period (excl. VAT)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "IZLAZI"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Ime i prezime odgovornog lica: ___________________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Incl. VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "Input VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__internal_amount
+msgid "Internal Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Interni"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__invoice_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__invoice_date
+msgid "Invoice Date"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Invoice No."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__invoice_number
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__invoice_number
+msgid "Invoice Number"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid ""
+"Isporuke (uključujući i one u vanposlovne svrhe) osim onih u poljima 12 i "
+"13:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Isporuke EUFOR-u i štabu NATO"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Isporuke oslobođene plaćanja PDV-a:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Ispravka odbitka ulaznog PDV-a (čl. 36 st. 2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Izdate KO kojima se odobravaju kupci u zemlji"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Iznos proporcionalnog odbitka (čl. 37)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Izvoz"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "JIB"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "JIB/PIB"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "JIB/TIN"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.actions.act_window,name:l10n_ba_account_pdv.action_account_kif_report
+#: model:ir.actions.report,name:l10n_ba_account_pdv.action_report_kif
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_kif_report
+#: model:ir.ui.menu,name:l10n_ba_account_pdv.menu_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "KIF - Sales Invoice Book"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_kif_line
+msgid "KIF Line"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "KIF Lines"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.actions.act_window,name:l10n_ba_account_pdv.action_account_kuf_report
+#: model:ir.actions.report,name:l10n_ba_account_pdv.action_report_kuf
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_kuf_report
+#: model:ir.ui.menu,name:l10n_ba_account_pdv.menu_kuf
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "KUF - Purchase Invoice Book"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model,name:l10n_ba_account_pdv.model_account_kuf_line
+msgid "KUF Line"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "KUF Lines"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Knjiga Izlaznih Faktura - KIF"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Knjiga Ulaznih Faktura - KUF"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Kupci koji nisu por. obv."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Kupci por. obv."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__write_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__write_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__write_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__write_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__write_uid
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_dpdv_report__write_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__write_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__write_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__write_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__write_date
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_report__line_ids
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_report__line_ids
+msgid "Line"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Mjesto: _______________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Mjesto: ___________________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__move_id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__move_id
+msgid "Move"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Nabavka cjelokupne ili dijela imovine (čl. 7 st. 2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Nabavka nekretnina sa pravom na odbitak PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Nabavka od neobv."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Nabavka opreme sa pravom na odbitak PDV - uvoz"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Nabavka opreme sa pravom na odbitak PDV u BiH"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Naknada"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Naziv dobavljača"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Naziv kupca"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Neodbitni"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Neplaćeni PDV po posebnoj šemi (čl. 41 i 66)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#. odoo-python
+#: code:addons/l10n_ba_account_pdv/wizard/account_kuf_report.py:0
+msgid "No posted purchase invoices found for the selected period."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#. odoo-python
+#: code:addons/l10n_ba_account_pdv/wizard/account_kif_report.py:0
+msgid "No posted sales invoices found for the selected period."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "No."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__non_deductible_pdv
+msgid "Non Deductible Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__non_pdv_purchase
+msgid "Non Pdv Purchase"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Non-VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Non-deduct."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "OUTPUT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Obrazac D PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Obrazac KIF"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Obrazac KUF"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Obrazac P PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Odbitni"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Odgovorno lice: _______________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Oslob."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Oslobođene isporuke - IPA fond (čl. 29 st. 2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "Osnov."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "Output VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "P D V  P R I J A V A"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "PDV na isporuke licima koja nisu registrovani PDV obveznici u:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "PDV na usluge stranih lica (čl. 13 st. 1 tač. 3)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "PDV na uvoz:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "PDV po posebnoj šemi u građevinarstvu (čl. 42)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "PDV vraćen stranim državljanima (PDV-SL-2, čl. 54)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__partner_jib
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__partner_jib
+msgid "Partner Jib"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__partner_name
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__partner_name
+msgid "Partner Name"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Paušal"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Paušalna naknada za poljoprivrednike:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__pdv_amount
+msgid "Pdv Amount"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Potpis: ___________________"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Prenos cjelokupne ili dijela imovine (čl. 7 st. 2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Primljene KO od domaćih dobavljača"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_pdv_report_view_form
+msgid "Print PDF"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Promet koji ne podliježe oporezivanju u BiH (čl. 3, čl. 15)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Promet nekretnina - prvi prenos (čl. 25 st. 1 tač. 2)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "R.br."
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+msgid "RS"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Reg. VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "Reg. base"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__registered_base
+msgid "Registered Base"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__registered_pdv
+msgid "Registered Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__report_id
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__report_id
+msgid "Report"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Republici Srpskoj"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "SVE nabavke osim onih u poljima 22 i 23:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Sa PDV"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kif_line__sequence
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid ""
+"Stanje zaliha robe, sirovina i gotovih proizvoda na kraju perioda (bez PDV)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Supplier"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kuf_report_view_form
+msgid "Total"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__total_input_pdv
+msgid "Total Input Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_kuf_line__total_with_pdv
+msgid "Total With Pdv"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kif
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "UKUPNO ZA MJESEC:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "ULAZI"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Ukupno"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_kuf
+msgid "Ulazni porez"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Usluge primljene iz inostranstva s pravom na odbitak"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_dpdv
+msgid "Usluge vezane za uvoz oslobođene PDV-a (čl. 26 st. 7)"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_kif_report_view_form
+msgid "VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.ui.menu,name:l10n_ba_account_pdv.menu_pdv_root
+msgid "VAT Reports"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Vrijednost izvoza:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Vrijednost nabavke od poljoprivrednika:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Vrijednost uvoza:"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.account_dpdv_report_view_form
+msgid "With VAT calculation"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "X"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model_terms:ir.ui.view,arch_db:l10n_ba_account_pdv.report_pdv
+msgid "Zahtjev za povrat"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_11
+msgid "r.11 Supplies"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_12
+msgid "r.12 Export value"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_13
+msgid "r.13 Exempt supplies"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_21
+msgid "r.21 All purchases"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_22
+msgid "r.22 Import value"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_23
+msgid "r.23 Purchases from farmers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_32
+msgid "r.32 Federation of BiH"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_33
+msgid "r.33 Republika Srpska"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_34
+msgid "r.34 Brcko District"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_41
+msgid "r.41 Input VAT from registered taxpayers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_42
+msgid "r.42 VAT on imports"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_43
+msgid "r.43 Flat-rate compensation for farmers"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_51
+msgid "r.51 Output VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_61
+msgid "r.61 Total input VAT"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_71
+msgid "r.71 Amount due/refund"
+msgstr ""
+
+#. module: l10n_ba_account_pdv
+#: model:ir.model.fields,field_description:l10n_ba_account_pdv.field_account_pdv_report__field_80
+msgid "r.80 Refund request"
+msgstr ""

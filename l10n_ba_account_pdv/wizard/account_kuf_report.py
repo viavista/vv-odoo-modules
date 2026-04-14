@@ -7,7 +7,7 @@ from odoo.exceptions import UserError
 
 class AccountKufReport(models.TransientModel):
     _name = "account.kuf.report"
-    _description = "KUF - Knjiga ulaznih faktura"
+    _description = "KUF - Purchase Invoice Book"
 
     date_from = fields.Date(
         required=True,
@@ -39,7 +39,7 @@ class AccountKufReport(models.TransientModel):
 
         if not moves:
             raise UserError(
-                _("Nema proknjiženih ulaznih faktura za odabrani period.")
+                _("No posted purchase invoices found for the selected period.")
             )
 
         lines_vals = []
@@ -82,7 +82,7 @@ class AccountKufReport(models.TransientModel):
                 "invoice_date": move.invoice_date,
                 "invoice_number": move.ref or move.name,
                 "partner_name": partner.name,
-                "partner_jib": partner.l10n_ba_jib or partner.vat or "",
+                "partner_vat_id": partner.vat or "",
                 "base_amount": total_base,
                 "total_with_pdv": total_with_pdv,
                 "flat_rate_amount": 0.0,
@@ -113,7 +113,7 @@ class AccountKufReport(models.TransientModel):
 
 class AccountKufLine(models.TransientModel):
     _name = "account.kuf.line"
-    _description = "KUF linija"
+    _description = "KUF Line"
     _order = "sequence"
 
     report_id = fields.Many2one("account.kuf.report", ondelete="cascade")
@@ -125,7 +125,7 @@ class AccountKufLine(models.TransientModel):
     # Column 4: Supplier name
     partner_name = fields.Char()
     # Column 5: Supplier JIB
-    partner_jib = fields.Char()
+    partner_vat_id = fields.Char()
     # Column 6: Invoice amount without VAT
     base_amount = fields.Float(digits=(16, 2))
     # Column 7: Invoice amount with VAT

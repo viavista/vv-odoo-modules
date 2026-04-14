@@ -7,7 +7,7 @@ from odoo.exceptions import UserError
 
 class AccountKifReport(models.TransientModel):
     _name = "account.kif.report"
-    _description = "KIF - Knjiga izlaznih faktura"
+    _description = "KIF - Sales Invoice Book"
 
     date_from = fields.Date(
         required=True,
@@ -43,7 +43,7 @@ class AccountKifReport(models.TransientModel):
 
         if not moves:
             raise UserError(
-                _("Nema proknjiženih izlaznih faktura za odabrani period.")
+                _("No posted sales invoices found for the selected period.")
             )
 
         lines_vals = []
@@ -109,7 +109,7 @@ class AccountKifReport(models.TransientModel):
                 "invoice_date": move.invoice_date,
                 "invoice_number": move.name,
                 "partner_name": partner.name,
-                "partner_jib": partner.l10n_ba_jib or partner.vat or "",
+                "partner_vat_id": partner.vat or "",
                 "internal_amount": 0.0,
                 "base_amount": total_base,
                 "export_amount": export_base,
@@ -142,7 +142,7 @@ class AccountKifReport(models.TransientModel):
 
 class AccountKifLine(models.TransientModel):
     _name = "account.kif.line"
-    _description = "KIF linija"
+    _description = "KIF Line"
     _order = "sequence"
 
     report_id = fields.Many2one("account.kif.report", ondelete="cascade")
@@ -151,7 +151,7 @@ class AccountKifLine(models.TransientModel):
     invoice_date = fields.Date()
     invoice_number = fields.Char()
     partner_name = fields.Char()
-    partner_jib = fields.Char()
+    partner_vat_id = fields.Char()
     # Column 6: Internal turnover
     internal_amount = fields.Float(digits=(16, 2))
     # Column 7: Invoice amount without VAT
