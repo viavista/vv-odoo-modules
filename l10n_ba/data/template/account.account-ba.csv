@@ -152,7 +152,7 @@ ba_339000,339000,Other revaluation reserves,equity,False,False,Ostale revaloriza
 ba_340000,340000,Retained earnings of prior periods,equity,False,False,Neraspoređena dobit ranijih perioda
 ba_341000,341000,Unappropriated profit of reporting period,equity_unaffected,False,False,Neraspoređena dobit izvještajnog perioda
 ba_350000,350000,Accumulated loss of prior periods,equity,False,False,Gubitak ranijih perioda
-ba_351000,351000,Loss of reporting period,equity_unaffected,False,False,Gubitak izvještajnog perioda
+ba_351000,351000,Loss of reporting period,equity,False,False,Gubitak izvještajnog perioda
 ba_400000,400000,Warranty provisions,liability_non_current,False,False,Rezervisanja za troškove u garantnom roku
 ba_401000,401000,Provisions for restoration of natural resources,liability_non_current,False,False,Rezervisanja za troškove obnavljanja prirodnih bogatstava
 ba_402000,402000,Retained deposits and guarantees,liability_non_current,False,False,Obaveze za zadržane kaucije i depozite
@@ -349,18 +349,18 @@ ba_689000,689000,Reversal of impairment of other financial and non-financial ass
 ba_690000,690000,Revenue from accounting policy changes,income_other,False,False,Prihodi po osnovu promjene računovodstvenih politika
 ba_691000,691000,Revenue from prior period error corrections,income_other,False,False,Prihodi po osnovu ispravki grešaka iz ranijih perioda
 ba_699000,699000,Transfer of revenue,income_other,False,False,Prijenos prihoda
-ba_700000,700000,Opening of general ledger,equity_unaffected,False,False,Otvaranje glavne knjige finansijskog računovodstva
-ba_710000,710000,Total revenue,equity_unaffected,False,False,Ukupni prihodi
-ba_711000,711000,Total expenses,equity_unaffected,False,False,Ukupni rashodi
-ba_712000,712000,Transfer of period result,equity_unaffected,False,False,Prijenos rezultata perioda
-ba_720000,720000,Profit or loss,equity_unaffected,False,False,Dobit ili gubitak
-ba_721000,721000,Income tax,equity_unaffected,False,False,Porez na dobit
-ba_722000,722000,Effect of decrease in deferred tax assets,equity_unaffected,False,False,Efekat smanjenja odgođene porezne imovine
-ba_723000,723000,Effect of increase in deferred tax assets,equity_unaffected,False,False,Efekat povećanja odgođene porezne imovine
-ba_724000,724000,Effect of increase in deferred tax liabilities,equity_unaffected,False,False,Efekat povećanja odgođenih poreznih obaveza
-ba_725000,725000,Effect of decrease in deferred tax liabilities,equity_unaffected,False,False,Efekat smanjenja odgođenih poreznih obaveza
-ba_726000,726000,Transfer of profit or loss,equity_unaffected,False,False,Prenos dobiti ili gubitka
-ba_730000,730000,Closing of balance sheet accounts,equity_unaffected,False,False,Zaključak konta stanja
+ba_700000,700000,Opening of general ledger,off_balance,False,False,Otvaranje glavne knjige finansijskog računovodstva
+ba_710000,710000,Total revenue,off_balance,False,False,Ukupni prihodi
+ba_711000,711000,Total expenses,off_balance,False,False,Ukupni rashodi
+ba_712000,712000,Transfer of period result,off_balance,False,False,Prijenos rezultata perioda
+ba_720000,720000,Profit or loss,off_balance,False,False,Dobit ili gubitak
+ba_721000,721000,Income tax,off_balance,False,False,Porez na dobit
+ba_722000,722000,Effect of decrease in deferred tax assets,off_balance,False,False,Efekat smanjenja odgođene porezne imovine
+ba_723000,723000,Effect of increase in deferred tax assets,off_balance,False,False,Efekat povećanja odgođene porezne imovine
+ba_724000,724000,Effect of increase in deferred tax liabilities,off_balance,False,False,Efekat povećanja odgođenih poreznih obaveza
+ba_725000,725000,Effect of decrease in deferred tax liabilities,off_balance,False,False,Efekat smanjenja odgođenih poreznih obaveza
+ba_726000,726000,Transfer of profit or loss,off_balance,False,False,Prenos dobiti ili gubitka
+ba_730000,730000,Closing of balance sheet accounts,off_balance,False,False,Zaključak konta stanja
 ba_900000,900000,Transfer of inventories,off_balance,False,False,"Preuzimanje zaliha, na početku poslovne godine,"
 ba_901000,901000,Transfer of material and goods procurement,off_balance,False,False,Preuzimanje nabavke materijala i robe
 ba_902000,902000,Transfer of costs,off_balance,False,False,Preuzimanje troškova
