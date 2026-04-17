@@ -13,14 +13,11 @@
         </field>
     </record>
 
-    <!-- Remove HR pin field from preferences (Odoo core bug — shown to all but ACL blocks read) -->
-    <record id="res_users_view_form_preferences_hide_pin" model="ir.ui.view">
-        <field name="name">res.users.preferences.hide.pin.viavista.ui</field>
-        <field name="model">res.users</field>
-        <field name="inherit_id" ref="hr.res_users_view_form_preferences"/>
-        <field name="arch" type="xml">
-            <xpath expr="//field[@name='pin']" position="replace"/>
-        </field>
+    <!-- Restrict HR preferences view extension to HR officers only
+         (Odoo 19 hr adds many ACL-restricted fields to preferences that break
+         for non-HR users: pin, version_id, resource_calendar_id, ...) -->
+    <record id="hr.res_users_view_form_preferences" model="ir.ui.view">
+        <field name="groups_id" eval="[(6, 0, [ref('hr.group_hr_user')])]"/>
     </record>
 
     <!-- Admin user form: hidden menus tab -->
