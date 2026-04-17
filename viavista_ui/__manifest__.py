@@ -13,7 +13,7 @@ Current features:
     'category': 'Productivity',
     'author': 'Viavista d.o.o.',
     'website': 'https://www.viavista.ba',
-    'depends': ['stock', 'sale_stock'],
+    'depends': ['stock', 'sale_stock', 'hr'],
     'data': [
         'views/res_users_views.xml',
         'views/product_template_views.xml',

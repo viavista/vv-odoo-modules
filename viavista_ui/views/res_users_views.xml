@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <!-- User preferences: stock per warehouse toggle -->
+    <!-- User preferences: stock per warehouse toggle + hide pin for non-HR users -->
     <record id="res_users_view_form_simple_modif" model="ir.ui.view">
         <field name="name">res.users.preferences.viavista.ui</field>
         <field name="model">res.users</field>
@@ -9,6 +9,9 @@
         <field name="arch" type="xml">
             <xpath expr="//group[@name='other_preferences']" position="inside">
                 <field name="show_stock_per_warehouse"/>
+            </xpath>
+            <xpath expr="//field[@name='pin']" position="attributes">
+                <attribute name="groups">hr.group_hr_user</attribute>
             </xpath>
         </field>
     </record>
