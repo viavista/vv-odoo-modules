@@ -7,6 +7,7 @@
     'website': 'https://www.viavista.ba',
     'support': 'info@viavista.ba',
     'depends': ['sale'],
+    'images': ['images/main_screenshot.png'],
     'data': [
         'security/ir.model.access.csv',
         'views/product_brand_views.xml',
