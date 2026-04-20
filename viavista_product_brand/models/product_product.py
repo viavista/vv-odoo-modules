@@ -1,10 +1,15 @@
 from odoo import api, fields, models
 
 
-class ProductTemplate(models.Model):
-    _inherit = 'product.template'
+class ProductProduct(models.Model):
+    _inherit = 'product.product'
 
-    brand_id = fields.Many2one('product.brand', string='Brand', index=True)
+    brand_id = fields.Many2one(
+        'product.brand',
+        related='product_tmpl_id.brand_id',
+        store=True,
+        index=True,
+    )
 
     @api.depends('brand_id')
     def _compute_display_name(self):

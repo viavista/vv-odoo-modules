@@ -18,23 +18,23 @@ msgstr ""
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_list
 msgid "# Products"
-msgstr "# Proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_kanban
 msgid "<span>products</span>"
-msgstr "<span>proizvoda</span>"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__active
 msgid "Active"
-msgstr "Aktivno"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_form
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_search
 msgid "Archived"
-msgstr "Arhivirano"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_product__brand_id
@@ -42,33 +42,33 @@ msgstr "Arhivirano"
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_form
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_template_search_brand
 msgid "Brand"
-msgstr "Brend"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_form
 msgid "Brand name..."
-msgstr "Naziv brenda..."
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.actions.act_window,name:viavista_product_brand.product_brand_action
 #: model:ir.ui.menu,name:viavista_product_brand.menu_product_brand
 msgid "Brands"
-msgstr "Brendovi"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model,name:viavista_product_brand.model_res_config_settings
 msgid "Config Settings"
-msgstr "Konfiguracijske postavke"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__create_uid
 msgid "Created by"
-msgstr "Kreirao"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__create_date
 msgid "Created on"
-msgstr "Kreirano"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__display_name
@@ -76,7 +76,7 @@ msgstr "Kreirano"
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_template__display_name
 #: model:ir.model.fields,field_description:viavista_product_brand.field_res_config_settings__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__id
@@ -84,52 +84,52 @@ msgstr "Naziv za prikaz"
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_template__id
 #: model:ir.model.fields,field_description:viavista_product_brand.field_res_config_settings__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__image_1920
 msgid "Image"
-msgstr "Slika"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__image_1024
 msgid "Image 1024"
-msgstr "Slika 1024"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__image_128
 msgid "Image 128"
-msgstr "Slika 128"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__image_256
 msgid "Image 256"
-msgstr "Slika 256"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__image_512
 msgid "Image 512"
-msgstr "Slika 512"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__name
 msgid "Name"
-msgstr "Naziv"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields.selection,name:viavista_product_brand.selection__res_config_settings__product_brand_sale_format__no
 msgid "No"
-msgstr "Ne"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,help:viavista_product_brand.field_res_config_settings__product_brand_sale_format
@@ -138,66 +138,63 @@ msgid ""
 " (sale orders, invoices, inventory, reports, etc.). Existing draft "
 "quotations are refreshed to match; confirmed orders are not modified."
 msgstr ""
-"Prikazuje brend ispred naziva proizvoda svuda u sučelju (prodajni nalozi, "
-"fakture, skladište, izvještaji itd.). Postojeće ponude u izradi se "
-"osvježavaju; potvrđeni nalozi ostaju nepromijenjeni."
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.res_config_settings_view_form_brand
 msgid "Prepends the brand to the product display name everywhere it appears."
-msgstr "Prikazuje brend ispred naziva proizvoda gdje god se naziv pojavljuje."
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model,name:viavista_product_brand.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model,name:viavista_product_brand.model_product_brand
 msgid "Product Brand"
-msgstr "Brend proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.res_config_settings_view_form_brand
 msgid "Product Brand in Product Name"
-msgstr "Brend u nazivu proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__product_count
 msgid "Product Count"
-msgstr "Broj proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model,name:viavista_product_brand.model_product_product
 msgid "Product Variant"
-msgstr "Varijanta proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model_terms:ir.ui.view,arch_db:viavista_product_brand.product_brand_view_form
 msgid "Products"
-msgstr "Proizvodi"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_product_brand__sequence
 msgid "Sequence"
-msgstr "Redoslijed"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields,field_description:viavista_product_brand.field_res_config_settings__product_brand_sale_format
 msgid "Show Product Brand in Product Name"
-msgstr "Prikaži brend u nazivu proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields.selection,name:viavista_product_brand.selection__res_config_settings__product_brand_sale_format__dash
 msgid "Yes — Brand - Product name"
-msgstr "Da — Brend - Naziv proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields.selection,name:viavista_product_brand.selection__res_config_settings__product_brand_sale_format__space
 msgid "Yes — Brand Product name"
-msgstr "Da — Brend Naziv proizvoda"
+msgstr ""
 
 #. module: viavista_product_brand
 #: model:ir.model.fields.selection,name:viavista_product_brand.selection__res_config_settings__product_brand_sale_format__bracket
 msgid "Yes — [Brand] Product name"
-msgstr "Da — [Brend] Naziv proizvoda"
+msgstr ""

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="demo_brand_acme" model="product.brand">
+        <field name="name">Acme</field>
+        <field name="sequence">10</field>
+    </record>
+
+    <record id="demo_brand_globex" model="product.brand">
+        <field name="name">Globex</field>
+        <field name="sequence">20</field>
+    </record>
+
+    <record id="demo_brand_initech" model="product.brand">
+        <field name="name">Initech</field>
+        <field name="sequence">30</field>
+    </record>
+
+    <record id="demo_brand_umbrella" model="product.brand">
+        <field name="name">Umbrella</field>
+        <field name="sequence">40</field>
+        <field name="active" eval="False"/>
+    </record>
+
+</odoo>

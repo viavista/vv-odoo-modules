@@ -10,9 +10,10 @@
     <div class="oe_row oe_spaced">
         <div class="oe_span12 text-center">
             <p class="oe_mt32">
-                A lightweight module that adds a <b>Brand</b> field to your products.
+                A lightweight module that adds a <b>Brand</b> entity to your catalog.
                 Create a clean list of brands with logos, assign them to product templates,
-                and filter or group your catalog by brand.
+                filter or group your catalog by brand, and optionally show the brand name
+                on sale order lines and customer-facing documents.
             </p>
         </div>
     </div>
@@ -32,50 +33,82 @@
         <h2 class="oe_slogan">Features</h2>
         <div class="oe_span6">
             <h4 class="oe_mt32"><b>Brand catalog with logos</b></h4>
-            <p>Manage a dedicated list of brands with logo images, browsable as a kanban board or a simple list. Brand names are translatable.</p>
+            <p>Manage a dedicated list of brands with logo images, browsable as a kanban board or a simple list. Brand names are translatable. Reorder brands manually with drag-and-drop.</p>
         </div>
         <div class="oe_span6">
-            <h4 class="oe_mt32"><b>Assign to products</b></h4>
-            <p>Set a brand on any product template. The field is indexed for fast search and reporting.</p>
+            <h4 class="oe_mt32"><b>Assign to products &amp; variants</b></h4>
+            <p>Set a brand on any product template — it is automatically reflected on all variants. Both fields are indexed for fast search and reporting.</p>
+        </div>
+        <div class="oe_span6">
+            <h4 class="oe_mt32"><b>Product count &amp; drill-down</b></h4>
+            <p>Each brand shows how many products are linked to it. A stat button opens the filtered product list in one click.</p>
+        </div>
+        <div class="oe_span6">
+            <h4 class="oe_mt32"><b>Archive unused brands</b></h4>
+            <p>Discontinued brand? Archive it instead of deleting — keeps historical data intact while hiding it from the default catalog.</p>
         </div>
         <div class="oe_span6">
             <h4 class="oe_mt32"><b>Search &amp; Group</b></h4>
-            <p>Filter products by brand and group your product list by brand directly from the standard search view.</p>
+            <p>Filter products by brand and group your product list by brand directly from the standard search view. The brand column is shown in the product list by default.</p>
+        </div>
+        <div class="oe_span6">
+            <h4 class="oe_mt32"><b>Brand in product name (optional)</b></h4>
+            <p>A single setting under <i>Sales → Quotations &amp; Orders</i> lets you prepend the brand to the product display name in one of three formats. The brand then appears everywhere the product is shown — dropdowns, sale orders, invoices, customer emails, inventory, reports — with no template override.</p>
         </div>
         <div class="oe_span6">
             <h4 class="oe_mt32"><b>Minimal footprint</b></h4>
-            <p>One model, one field, clean access rights. No clutter, no background processes, no external services.</p>
+            <p>Three models, a handful of fields, clean access rights. No background processes, no external services, no clutter.</p>
+        </div>
+        <div class="oe_span6">
+            <h4 class="oe_mt32"><b>Tested</b></h4>
+            <p>Ships with a suite of automated tests covering brand creation, product linking, archive logic, variant propagation, and all four sale-line formatting options.</p>
         </div>
     </div>
 </section>
 
 <section class="oe_container oe_dark">
     <div class="oe_row oe_spaced">
-        <h2 class="oe_slogan">Access rights</h2>
+        <h2 class="oe_slogan">Product name formats</h2>
         <div class="oe_span12">
+            <p>Choose how the brand is prepended to the product display name (takes effect immediately on every product that has a brand assigned):</p>
             <ul>
-                <li><b>All users</b> can read brands.</li>
-                <li><b>Product Managers</b> can create, edit and delete brands.</li>
+                <li><b>No</b> — brand is not added to the product name (default).</li>
+                <li><b>[Brand] Product name</b> — e.g. <code>[Acme] Laptop 15"</code></li>
+                <li><b>Brand - Product name</b> — e.g. <code>Acme - Laptop 15"</code></li>
+                <li><b>Brand Product name</b> — e.g. <code>Acme Laptop 15"</code></li>
             </ul>
+            <p>Because the brand becomes part of the product's display name, it shows consistently across the whole app — sale orders, invoices, emails, inventory, reports — without any template overrides.</p>
         </div>
     </div>
 </section>
 
 <section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Access rights</h2>
+        <div class="oe_span12">
+            <ul>
+                <li><b>All users</b> can read brands.</li>
+                <li><b>Product Managers</b> can create, edit, archive, and delete brands.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
     <div class="oe_row oe_spaced text-center">
         <h2 class="oe_slogan">Technical information</h2>
         <div class="oe_span12">
             <p>
                 <b>Odoo version:</b> 19.0<br/>
                 <b>License:</b> LGPL-3<br/>
-                <b>Dependencies:</b> sale<br/>
+                <b>Dependencies:</b> sale_management<br/>
                 <b>Author:</b> Viavista d.o.o.
             </p>
         </div>
     </div>
 </section>
 
-<section class="oe_container oe_dark">
+<section class="oe_container">
     <div class="oe_row oe_spaced text-center">
         <h2 class="oe_slogan">Need help?</h2>
         <p>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form_brand" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.product.brand</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="sale.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//block[@name='quotation_order_setting_container']" position="inside">
+                <setting id="product_brand_sale_format_setting"
+                         string="Product Brand in Product Name"
+                         help="Prepends the brand to the product display name everywhere it appears.">
+                    <field name="product_brand_sale_format"/>
+                </setting>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
