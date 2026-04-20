@@ -1,7 +1,7 @@
 {
     'name': 'Product Brand',
-    'version': '19.0.2.0.0',
-    'summary': 'Organize products by brand, with logos, filters, and optional brand display on sale order lines',
+    'version': '19.0.2.0.1',
+    'summary': 'Organize products by brand: logos, filters, archive, and optional brand prefix in product names',
     'category': 'Sales',
     'author': 'Viavista d.o.o.',
     'website': 'https://www.viavista.ba',
