@@ -33,14 +33,9 @@ msgid "Activity code: %s"
 msgstr "Šifra djelatnosti: %s"
 
 #. module: l10n_ba
-#: model:ir.model,name:l10n_ba.model_base_document_layout
-msgid "Company Document Layout"
-msgstr "Izgled dokumenata tvrtke"
-
-#. module: l10n_ba
 #: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "Bank Account: "
-msgstr "Žiro-račun: "
+msgid "Bank Account:"
+msgstr "Žiro-račun:"
 
 #. module: l10n_ba
 #: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
@@ -56,6 +51,11 @@ msgstr "Bosna i Hercegovina"
 #: model:ir.model,name:l10n_ba.model_res_company
 msgid "Companies"
 msgstr "Tvrtke"
+
+#. module: l10n_ba
+#: model:ir.model,name:l10n_ba.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Izgled dokumenata tvrtke"
 
 #. module: l10n_ba
 #: model:ir.model,name:l10n_ba.model_res_partner
@@ -100,11 +100,11 @@ msgid "Place of Issue"
 msgstr "Mjesto izdavanja"
 
 #. module: l10n_ba
-#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
-msgstr "PDV nije obračunat — porezni obveznik nije u sustavu PDV-a (članak 44. Zakona o PDV BiH)."
-
-#. module: l10n_ba
 #: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_activity_code
 msgid "Šifra djelatnosti — classification code per KD2010."
 msgstr "Šifra djelatnosti — klasifikacija prema KD2010."
+
+#. module: l10n_ba
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
+msgstr "PDV nije obračunat — porezni obveznik nije u sustavu PDV-a (članak 44. Zakona o PDV BiH)."

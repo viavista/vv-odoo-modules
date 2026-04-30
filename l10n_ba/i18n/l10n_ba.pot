@@ -32,13 +32,8 @@ msgid "Activity code: %s"
 msgstr ""
 
 #. module: l10n_ba
-#: model:ir.model,name:l10n_ba.model_base_document_layout
-msgid "Company Document Layout"
-msgstr ""
-
-#. module: l10n_ba
 #: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "Bank Account: "
+msgid "Bank Account:"
 msgstr ""
 
 #. module: l10n_ba
@@ -54,6 +49,11 @@ msgstr ""
 #. module: l10n_ba
 #: model:ir.model,name:l10n_ba.model_res_company
 msgid "Companies"
+msgstr ""
+
+#. module: l10n_ba
+#: model:ir.model,name:l10n_ba.model_base_document_layout
+msgid "Company Document Layout"
 msgstr ""
 
 #. module: l10n_ba
@@ -99,11 +99,11 @@ msgid "Place of Issue"
 msgstr ""
 
 #. module: l10n_ba
-#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
+#: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_activity_code
+msgid "Šifra djelatnosti — classification code per KD2010."
 msgstr ""
 
 #. module: l10n_ba
-#: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_activity_code
-msgid "Šifra djelatnosti — classification code per KD2010."
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
 msgstr ""
