@@ -106,5 +106,9 @@ msgstr "Šifra djelatnosti — klasifikacija prema KD2010."
 
 #. module: l10n_ba
 #: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
-msgstr "PDV nije obračunat — porezni obveznik nije u sustavu PDV-a (članak 44. Zakona o PDV BiH)."
+msgid ""
+"<em>VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH "
+"VAT Law).</em>"
+msgstr ""
+"<em>PDV nije obračunat — porezni obveznik nije u sustavu PDV-a (članak 44. "
+"Zakona o PDV BiH).</em>"

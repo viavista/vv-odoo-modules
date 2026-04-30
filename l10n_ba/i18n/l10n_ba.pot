@@ -105,5 +105,7 @@ msgstr ""
 
 #. module: l10n_ba
 #: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
-msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
+msgid ""
+"<em>VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH "
+"VAT Law).</em>"
 msgstr ""
