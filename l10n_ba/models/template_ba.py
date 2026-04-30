@@ -34,6 +34,8 @@ class AccountChartTemplate(models.AbstractModel):
                 "account_purchase_tax_id": "VAT_P_17",
                 "expense_account_id": "ba_550000",
                 "income_account_id": "ba_601000",
+                # FBiH practice: invoices include the total written out in words.
+                "display_invoice_amount_total_words": True,
             },
         }
 

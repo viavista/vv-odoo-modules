@@ -1,5 +1,6 @@
-id,name,sequence,auto_apply,vat_required,country_id,country_group_id,name@bs
-fiscal_position_ba_domestic,Domestic,10,1,1,base.ba,,Domaći
-fiscal_position_ba_export,Export,20,,,,,Izvoz
-fiscal_position_ba_exempt,Tax exempt,30,,,,,Oslobođeni obveznik
-fiscal_position_ba_reverse_charge,Reverse charge,40,,,,,Obrnuto oporezivanje
+id,name,sequence,auto_apply,vat_required,country_id,country_group_id,note,name@bs,note@bs
+fiscal_position_ba_domestic,Domestic,10,1,1,base.ba,,,Domaći,
+fiscal_position_ba_non_vat,Non-VAT taxpayer,5,,,base.ba,,"VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law).",Nismo u sistemu PDV-a,"PDV nije obračunat — porezni obveznik nije u sistemu PDV-a (član 44. Zakona o PDV BiH)."
+fiscal_position_ba_export,Export,20,,,,,,Izvoz,
+fiscal_position_ba_exempt,Tax exempt,30,,,,,,Oslobođeni obveznik,
+fiscal_position_ba_reverse_charge,Reverse charge,40,,,,,,Obrnuto oporezivanje,

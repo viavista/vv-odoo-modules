@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 19.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-14 00:00+0000\n"
-"PO-Revision-Date: 2026-04-14 00:00+0000\n"
+"POT-Creation-Date: 2026-04-30 00:00+0000\n"
+"PO-Revision-Date: 2026-04-30 00:00+0000\n"
 "Last-Translator: Viavista d.o.o.\n"
 "Language-Team: Bosnian\n"
 "Language: bs\n"
@@ -22,11 +22,89 @@ msgid "Account Chart Template"
 msgstr "Predložak kontnog plana"
 
 #. module: l10n_ba
+#: model:ir.model.fields,field_description:l10n_ba.field_res_company__l10n_ba_activity_code
+msgid "Activity Code"
+msgstr "Šifra djelatnosti"
+
+#. module: l10n_ba
+#: code:addons/l10n_ba/models/base_document_layout.py:0
+#, python-format
+msgid "Activity code: %s"
+msgstr "Šifra djelatnosti: %s"
+
+#. module: l10n_ba
+#: model:ir.model,name:l10n_ba.model_base_document_layout
+msgid "Company Document Layout"
+msgstr "Izgled dokumenata firme"
+
+#. module: l10n_ba
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "Bank Account: "
+msgstr "Bankovni račun: "
+
+#. module: l10n_ba
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "Bank Accounts"
+msgstr "Bankovni računi"
+
+#. module: l10n_ba
 #: model:ir.ui.menu,name:l10n_ba.account_reports_ba_statements_menu
 msgid "Bosnia and Herzegovina"
 msgstr "Bosna i Hercegovina"
 
 #. module: l10n_ba
+#: model:ir.model,name:l10n_ba.model_res_company
+msgid "Companies"
+msgstr "Firme"
+
+#. module: l10n_ba
 #: model:ir.model,name:l10n_ba.model_res_partner
 msgid "Contact"
 msgstr "Kontakt"
+
+#. module: l10n_ba
+#: model:ir.model.fields,field_description:l10n_ba.field_res_company__l10n_ba_court_name
+msgid "Court of Registration"
+msgstr "Sud upisa"
+
+#. module: l10n_ba
+#: model:ir.model.fields,field_description:l10n_ba.field_res_company__l10n_ba_court_registration
+msgid "Court Registration Number (MBS)"
+msgstr "Matični broj subjekta upisa (MBS)"
+
+#. module: l10n_ba
+#: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_court_name
+msgid "Court where the company is registered (e.g. Općinski sud u Širokom Brijegu)."
+msgstr "Sud kod kojeg je firma registrovana (npr. Općinski sud u Širokom Brijegu)."
+
+#. module: l10n_ba
+#: code:addons/l10n_ba/models/base_document_layout.py:0
+#, python-format
+msgid "JIB: %s"
+msgstr "JIB: %s"
+
+#. module: l10n_ba
+#: code:addons/l10n_ba/models/base_document_layout.py:0
+#, python-format
+msgid "MBS: %s"
+msgstr "MBS: %s"
+
+#. module: l10n_ba
+#: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_court_registration
+msgid "Matični broj subjekta upisa — registration entry number issued by the court. Format varies by canton."
+msgstr "Matični broj subjekta upisa — broj upisnog rješenja izdat od strane suda. Format se razlikuje po kantonima."
+
+#. module: l10n_ba
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "Place of Issue"
+msgstr "Mjesto izdavanja"
+
+#. module: l10n_ba
+#: model_terms:ir.ui.view,arch_db:l10n_ba.report_invoice_document_l10n_ba
+msgid "VAT not charged — taxpayer not in the VAT system (Article 44 of the BiH VAT Law)."
+msgstr "PDV nije obračunat — porezni obveznik nije u sistemu PDV-a (član 44. Zakona o PDV BiH)."
+
+#. module: l10n_ba
+#: model:ir.model.fields,help:l10n_ba.field_res_company__l10n_ba_activity_code
+msgid "Šifra djelatnosti — classification code per KD2010."
+msgstr "Šifra djelatnosti — klasifikacija prema KD2010."

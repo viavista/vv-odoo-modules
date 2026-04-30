@@ -3,15 +3,19 @@
 
 {
     "name": "Bosnia and Herzegovina - Accounting",
-    "version": "19.0.1.0.0",
+    "version": "19.0.2.0.0",
     "category": "Accounting/Localizations/Account Charts",
-    "summary": "Chart of accounts, taxes and fiscal positions for Bosnia and Herzegovina",
+    "summary": "Chart of accounts, taxes, fiscal positions and invoice memorandum for Bosnia and Herzegovina",
     "description": """
-Chart of accounts for companies in Bosnia and Herzegovina.
+Localization for companies in Bosnia and Herzegovina.
 
-Sources:
-- Rulebook on chart of accounts and account contents for companies
-  (Official Gazette of FBiH, No. 81/21)
+Includes:
+- Chart of accounts (Pravilnik o kontnom okviru, Sl. novine FBiH 81/21)
+- VAT taxes and fiscal positions (incl. non-VAT taxpayer with Article 44 note)
+- Court of registration and MBS fields on res.company
+- Auto-generated company memorandum block (JIB, court, MBS, activity code)
+- Invoice template extensions: place of issue, full bank-accounts list
+- Bosnian, Croatian and Serbian (Latin) translations
     """,
     "author": "Viavista d.o.o., Odoo Community Association (OCA)",
     "website": "https://github.com/viavista/viavista-odoo-modules",
@@ -28,7 +32,9 @@ Sources:
     "data": [
         "data/l10n_ba_chart_data.xml",
         "data/account_tax_report_data.xml",
+        "views/res_company_views.xml",
         "views/res_partner_views.xml",
+        "views/report_invoice.xml",
     ],
     "demo": [
         "demo/demo_company.xml",

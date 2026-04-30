@@ -18,6 +18,8 @@
     <record id="base.demo_company_ba" model="res.company" forcecreate="1">
         <field name="name">BA Company</field>
         <field name="partner_id" ref="base.partner_demo_company_ba"/>
+        <field name="l10n_ba_court_name">Općinski sud u Sarajevu</field>
+        <field name="l10n_ba_court_registration">65-01-0000-25</field>
     </record>
 
     <record id="base.demo_bank_ba" model="res.partner.bank" forcecreate="1">
