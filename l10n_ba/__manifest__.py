@@ -33,7 +33,6 @@ Includes:
         "data/l10n_ba_chart_data.xml",
         "data/account_tax_report_data.xml",
         "views/res_company_views.xml",
-        "views/res_partner_views.xml",
         "views/report_invoice.xml",
     ],
     "demo": [

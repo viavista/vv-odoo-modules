@@ -6,8 +6,6 @@
     <template id="report_invoice_document_l10n_ba"
               inherit_id="account.report_invoice_document">
 
-        <!-- Add "Place of Issue" column at the start of the informations row
-             for BA companies. Source: company.city. -->
         <xpath expr="//div[@name='invoice_date']" position="before">
             <div class="col"
                  t-if="o.company_id.country_code == 'BA' and o.company_id.city"
@@ -17,9 +15,6 @@
             </div>
         </xpath>
 
-        <!-- Non-VAT taxpayer note for BA companies that have no VAT number set
-             AND no fiscal position chosen. When a fiscal position is set, the
-             stock template shows its note via o.fiscal_position_id.note. -->
         <xpath expr="//div[@name='qr_code_placeholder']" position="before">
             <p class="mb-2"
                t-if="o.company_id.country_code == 'BA'
@@ -31,12 +26,6 @@
             </p>
         </xpath>
 
-        <!-- Bank accounts block for BA companies, inserted before the QR code area:
-             - If a specific partner_bank_id is selected on the invoice but no
-               payment_reference exists, show that single account (the stock
-               template's payment_communication div hides itself otherwise).
-             - If no partner_bank_id is selected, list all active company bank
-               accounts so the customer can choose — standard FBiH practice. -->
         <xpath expr="//div[@name='qr_code_placeholder']" position="before">
             <div class="mb-3"
                  t-if="o.company_id.country_code == 'BA' and o.move_type in ('out_invoice', 'in_refund')"
@@ -52,7 +41,7 @@
                     <table class="table table-sm table-borderless mb-0">
                         <tr t-foreach="o.company_id.bank_ids" t-as="bank">
                             <td t-out="bank.bank_id.name or ''"/>
-                            <td class="text-end" t-field="bank.acc_number"/>
+                            <td class="text-end" t-out="bank.acc_number"/>
                         </tr>
                     </table>
                 </t>
